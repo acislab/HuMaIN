@@ -1,0 +1,142 @@
+body {
+	width: 960px;
+	padding: 0px;
+	margin: 0 auto;
+	font-family: Calibri, sans-serif;
+}
+
+h1 {
+	font-size: 40px;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+
+h5 {
+	font-family: "Times New Roman";
+	font-size: 13px;
+	text-align: center;
+	margin-top: 0px;
+}
+
+/* page core */
+div#core {
+    display: block;
+    clear: both;
+    margin-bottom: 20px;
+    text-align: center;
+}
+section#example {
+	float: top;
+	height: 405px;
+	margin: 0 0px;
+}
+section#components {
+	float: bottom;
+	height: 60px;
+	margin: 10 10px;
+}
+  
+/* clearfix */
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+  
+html[xmlns] .clearfix {
+	display: block;
+}
+* html .clearfix {
+	height: 1%;
+}
+
+#menu {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;	
+	border: 1px solid #000;
+	border-width: 1px 0;
+	text-align: center;
+}
+
+#menu li{
+	position: relative;
+	display: inline;
+	font-size: 15px;
+}
+
+#menu a{
+	display: inline-block;
+	padding: 0px;
+	width: 140px;
+}
+#menu ul{
+	position: absolute;
+	top: 100%;
+	left: -9999px;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+#menu ul li{
+	display:block;
+	font-size: 14px;
+}
+#menu li:hover ul{
+	left:0;
+}
+#menu li:hover a{
+	text-decoration:underline;
+	background:#e4e4e4;
+}
+#menu li:hover ul a{
+	text-decoration:none;
+	background:#e4e4e4;
+}
+#menu li:hover ul a:hover{
+	text-decoration:underline;
+	background:#e4e4e4;
+}
+#menu ul a{
+	white-space:nowrap;
+	display:block;
+	border-bottom:1px solid #ccc;
+}
+
+a{
+	color:#006400;
+	text-decoration:none;
+	font-weight:bold;
+}
+a:hover{
+	text-decoration:underline;
+	background:#f1f1f1;
+}
+
+hr { 
+	display: block;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: inset;
+	border-width: 1 px;
+} 
+
+footer {
+	font-size: 12px;
+	text-align: center;
+}
+
+table.center {
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 0px;
+}
