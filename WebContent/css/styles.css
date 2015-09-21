@@ -1,3 +1,11 @@
+header {
+	width: 960px;
+	padding: 0px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	font-family: Calibri, sans-serif;
+}
+
 body {
 	width: 960px;
 	padding: 0px;
@@ -9,6 +17,13 @@ h1 {
 	font-size: 40px;
 	text-align: center;
 	margin-top: 5px;
+	margin-bottom: 0px;
+}
+
+h2 {
+	font-size: 24px;
+	text-align: left;
+	margin-top: 0px;
 	margin-bottom: 0px;
 }
 
@@ -35,6 +50,11 @@ section#components {
 	float: bottom;
 	height: 60px;
 	margin: 10 10px;
+}
+section#people {
+	float: top;
+	height: 588px;
+	margin: 0 0px;
 }
   
 /* clearfix */
@@ -139,4 +159,18 @@ table.center {
 	margin-left:auto;
 	margin-right:auto;
 	margin-bottom: 0px;
+}
+
+table.left {
+	text-align: justify;
+	margin: 0;
+	padding: 0;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+u {
+	text-decoration: underline;
 }
