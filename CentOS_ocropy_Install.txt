@@ -1,0 +1,34 @@
+#---------------------------------------------------------------------
+# OCROPUS INSTALLATION IN CENTOS
+#---------------------------------------------------------------------
+
+# Install a graphical interface in the OS
+yum -y groups install "GNOME Desktop"
+
+# Download ocropy
+yum update
+yum install git
+git clone https://github.com/tmbdev/ocropy.git
+cd ocropy
+yum install curl
+yum install scipy python-matplotlib
+
+# Libraries installation
+yum install epel-releasefiref
+yum update
+yum install python-pip.noarch
+yum install python-tables
+yum install firefox
+yum install ImageMagick
+yum install opencv
+yum install python-beautifulsoup4
+yum install gcc
+yum install python-pillow
+yum install wget
+
+# Dictionary 
+wget -nd http://www.tmbdev.net/en-default.pyrnn.gz
+mv en-default.pyrnn.gz models/
+
+# Test
+./run-test
