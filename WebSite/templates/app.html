@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>HuMaIN's Catalog of Human and Machine Intelligent processes</title>
+		{% load staticfiles %}
+		<link href="/static/styles/style.css" rel="stylesheet">
+		<link href="/static/favicon.png" rel="icon" type="image/x-icon" />
+	</head>
+	<body>
+		
+		<header>
+			<div class="title1">
+				Human &amp;<br/>
+				Machine<br/>
+				INtelligent<br/>
+			</div>
+			
+			<div class="title2">
+				HuMaIN
+			</div>
+			
+			<div class="title3">
+				software components<br/> 
+				for information<br/>
+				retrieval<br/>
+			</div>
+			
+			<nav>
+				<table>
+					<tr>
+						<td>
+							<a href="{% url "index" %}">
+								<img alt="Home" src="/static/images/home-icon.png" width=40px height=40px>
+							</a>
+						</td>
+						<td>
+							<a href="mission.html">
+								<img alt="Home" src="/static/images/target-icon.png" width=40px height=40px>
+							</a>
+						</td>
+						<td>
+							<a href="app.html">
+								<img alt="Home" src="/static/images/play-icon.png" width=40px height=40px>
+							</a>
+						</td>
+						<td>
+							<a href="catalog.html">
+								<img alt="Home" src="/static/images/stack-icon.png" width=40px height=40px>
+							</a>
+						</td>
+						<td>
+							<a href="contact.html">
+								<img alt="Home" src="/static/images/phone-icon.png" width=40px height=40px>
+							</a>
+						</td>
+						<td>
+							<a href="help.html">
+								<img alt="Home" src="/static/images/windy-icon.png" width=40px height=40px>
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td>Home</td>
+						<td>Mission</td>
+						<td>Humain</td>
+						<td>Catalog</td>
+						<td>Us</td>
+						<td>Help</td>
+					</tr>
+				</table>
+			</nav>
+		</header>
+			
+		<div class="content_1col">
+			<table style="margin: auto;">
+				<tr height="10px">
+					<td width="50px"></td>
+					<td width="750px"></td>
+					<td width="50px"></td>
+				</tr>
+				
+				<tr>
+					<td width="50px"></td>
+					<td width="750px">
+						Please help us to label parts of iDigBio images, collected during the hackathon of 2013.:<br/>
+						We are interested in the following:<br/><br/>
+						<ul style="margin:0;font-size:16px;">
+							<li><a href="cropLabel.html">Crop the text area or label of the image, something like:</a><br/>
+								<table class="center">
+									<tr height="5px"><td></td></tr>
+									<tr><td><img alt="Label" src="/static/images/croppingExamples/herbLabel.png" height="300px"></td></tr>
+									<tr height="20px"><td></td></tr>
+								</table>
+							</li>
+							
+							<li><a href="cropFields.html">Crop specific fields in the label, specifically: Country, Event Date, 
+							Latitude, Longitude, and Scientific Name of the specimens</a><br/>
+								<table class="center">
+									<tr height="5px"><td colspan="3"></td></tr>
+									<tr>
+										<td><img alt="Label" src="/static/images/croppingExamples/entEventDate3.png" height="30px"></td>
+										<td></td>
+										<td><img alt="Label" src="/static/images/croppingExamples/lichensLongitud3.png" height="30px"></td>
+									</tr>
+									<tr height="5px"><td colspan="3"></td></tr>
+									<tr>
+										<td></td>
+										<td><img alt="Label" src="/static/images/croppingExamples/herbScientificName2.png" height="30px"></td>
+										<td></td>
+									</tr>									
+									<tr height="20px"><td colspan="3"></td></tr>
+								</table>							
+
+							</li>
+						</ul>
+					</td>
+					<td width="50px"></td>
+				</tr>
+			</table>
+		</div>
+		
+		<footer>
+			<table class="center">
+				<tr>
+					<td>
+						<img alt="Home" src="/static/images/nsf1.gif" width="49px" height="50px">
+					</td>
+					<td>
+						<b>HuMaIN is funded by a grant from the National Science Foundation's ACI Division of Advanced Cyberinfrastructure (Award Number: 1535086). <br/>
+						Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and 
+						<br/>do not necessarily reflect the views of the National Science Foundation.</b>
+					</td>
+					<td>
+						<img alt="Home" src="/static/images/UFsignature.jpg" width="250px" height="46px">
+					</td>
+				</tr> 
+			</table>
+		</footer>
+		
+	</body>
+</html>

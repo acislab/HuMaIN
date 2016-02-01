@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>HuMaIN&#39;s App</title>
+		{% load staticfiles %}
+		<script type="text/javascript" src="/static/jquery-1.12.0.min.js"></script>
+		<script type="text/javascript" src="/static/cropper/cropper.min.js"></script>		
+		<link  href="/static/cropper/cropper.min.css" rel="stylesheet">
+		<link href="/static/styles/style.css" rel="stylesheet">
+		
+		<link href="/static/favicon.png" rel="icon" type="image/x-icon" />
+		<link href="/static/favicon.png" rel="shortcut icon" type="image/x-icon" />
+	</head>
+	<body>
+		
+		<header>
+			<div class="title1">
+				Human &amp;<br/>
+				Machine<br/>
+				INtelligent<br/>
+			</div>
+			
+			<div class="title2">
+				HuMaIN
+			</div>
+			
+			<div class="title3">
+				software components<br/> 
+				for information<br/>
+				retrieval<br/>
+			</div>
+			
+			<nav>
+				<table>
+					<tr>
+						<td>
+							<a href='{% url "index" %}'>
+								<img alt="Home" src="/static/images/home-icon.png" width=40px height=40px>
+							</a>
+						</td>
+						<td>
+							<a href="mission.html">
+								<img alt="Home" src="/static/images/target-icon.png" width=40px height=40px>
+							</a>
+						</td>
+						<td>
+							<a href="app.html">
+								<img alt="Home" src="/static/images/play-icon.png" width=40px height=40px>
+							</a>
+						</td>
+						<td>
+							<a href="catalog.html">
+								<img alt="Home" src="/static/images/stack-icon.png" width=40px height=40px>
+							</a>
+						</td>
+						<td>
+							<a href="contact.html">
+								<img alt="Home" src="/static/images/phone-icon.png" width=40px height=40px>
+							</a>
+						</td>
+						<td>
+							<a href="help.html">
+								<img alt="Home" src="/static/images/windy-icon.png" width=40px height=40px>
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td>Home</td>
+						<td>Mission</td>
+						<td>Humain</td>
+						<td>Catalog</td>
+						<td>Us</td>
+						<td>Help</td>
+					</tr>
+				</table>
+			</nav>
+		</header>
+			
+		<div class="appLeft">
+			<table class="t_croppping">
+				<tr>
+					<td width="20px" rowspan="16">
+					</td>
+					<td>
+					</td>
+					<td width="2px" rowspan="16">
+					</td>
+					<td width="32px">
+					</td>
+					<td width="5px" rowspan="16">
+					</td>
+				</tr>
+				
+				<tr>
+					<td rowspan="13">
+						<div class="imageContainer">
+							<img id="image" src="{{ filename }}" style="max-width:100%;max-height:100%;object-fit:contain" >
+						</div>
+					</td>
+					<td width="32px" height="50px">
+					</td>
+				</tr>
+				
+				<tr>
+					<td width="32px" height="32px" >
+						<img src="/static/images/cropper/denied-icon.png" id="btn_reset" class="button" data-method="reset" width="32px" height="32px">
+					</td>
+				</tr>
+				
+				<tr>
+					<td width="32px" height="100px">
+					</td>
+				</tr>
+				
+				<tr>
+					<td width="32px" height="32px">
+						<img src="/static/images/cropper/arrow-up-icon.png" id="btn_moveUp" class="button" data-method="move" data-option="0" data-second-option="-10" width="32px" height="32px">
+					</td>
+				</tr>
+				
+				<tr>
+					<td width="32px" height="2px">
+					</td>
+				</tr>				
+				
+				<tr>
+					<td width="32px" height="32px">
+						<img src="/static/images/cropper/arrow-down-icon.png" id="btn_moveDown" class="button" data-method="move" data-option="0" data-second-option="10" width="32px" height="32px">
+					</td>
+				</tr>				
+				
+				<tr>
+					<td width="32px" height="100px">
+					</td>
+				</tr>				
+				
+				<tr>
+					<td width="32px" height="32px">	
+						<img src="/static/images/cropper/zoom-in-icon.png" id="btn_zoomIn" class="button" data-method="zoom" data-option="0.1" width="32px" height="32px">
+					</td>
+				</tr>
+				
+				<tr>
+					<td width="32px" height="2px">
+					</td>
+				</tr>				
+				
+				<tr>
+					<td width="32px" height="32px">
+						<img src="/static/images/cropper/zoom-out-icon.png" id="btn_zoomOut" class="button" data-method="zoom" data-option="-0.1" width="32px" height="32px">
+					</td>
+				</tr>	
+				
+				<tr>
+					<td width="32px" height="100px">
+					</td>
+				</tr>						
+				
+				<tr>
+					<td width="32px" height="32px">
+						<!--
+							<img src="/static/images/cropper/scissors-icon.png" id="btn_cut" class="button" data-method="crop" width="32px" height="32px">
+						-->
+					</td>
+				</tr>								
+				
+				<tr>
+					<td width="32px" height="50px">
+					</td>
+				</tr>						
+						
+				<tr>
+					<td height="2px">
+					</td>
+					<td width="32px" height="2px">
+					</td>
+				</tr>	
+				
+				<tr>
+					<td height="2px" align="center">
+						<table>
+							<tr>
+								<td></td>
+								<td width="32px" height="32px">
+									<img src="/static/images/cropper/arrow-left-icon.png" id="btn_moveLeft" class="button" data-method="move" data-option="-10" data-second-option="0" width="32px" height="32px">
+								</td>
+								<td width="2px"></td>
+								<td width="32px" height="32px">
+									<img src="/static/images/cropper/arrow-right-icon.png" id="btn_moveRight" class="button" data-method="move" data-option="10" data-second-option="0" width="32px" height="32px">
+								</td>
+								<td></td>
+							</tr>
+						</table>
+					</td>
+					<td width="32px">
+					</td>
+				</tr>												
+
+			</table>
+		</div>
+			
+		<div class="appContent">
+						
+			<table class="t_croppping">
+			
+				<tr height="10px">
+					<td rowspan="6" width="20px"></td>
+					<td></td>
+					<td rowspan="6" width="5px"></td>
+				</tr>
+				
+				<tr>
+					<td style="font: 16px arial, sans-serif;">Crop Box coordinates</td>
+				</tr>
+				
+				<tr height="10px">
+					<td></td>				
+				</tr>
+				
+				<tr>
+					<td>
+						<table class="center">
+							<tr>
+								<td colspan="3" style="font: 14px arial, sans-serif;">Upper left corner</td>
+								<td></td>
+								<td colspan="3" style="font: 14px arial, sans-serif;" align="center">Dimensions</td>
+							</tr>
+							
+							<tr height="10">
+								<td colspan="7"></td>
+							</tr>
+							
+							<tr>
+								<td>X</td>
+								<td><input id="id_x" name="x" size="6" type="text" value='0' readonly></td>
+								<td>px</td>
+								<td width="30px"></td>
+								<td>Width</td>
+								<td><input id="id_width" name="width" size="6" type="text" value='0' readonly></td>
+								<td>px</td>
+							</tr>
+							
+							<tr height="10">
+								<td colspan="7"></td>
+							</tr>
+							
+							<tr>
+								<td>Y</td>
+								<td><input id="id_y" name="y" size="6" type="text" value='0' readonly></td>
+								<td>px</td>
+								<td width="30px"></td>
+								<td>Height</td>
+								<td><input id="id_height" name="height" size="6" type="text" value='0' readonly></td>
+								<td>px</td>
+							</tr>
+						</table>
+					</td>			
+				</tr>
+				
+				<tr height="10px">
+					<td></td>
+				</tr>
+	
+				<tr height="10px">
+					<td>
+					
+						<form action='{% url "cropFieldsView" %}' method="POST" enctype="multipart/form-data">
+						{% csrf_token %}
+					
+							<table class="center">
+								<!--  #################################################### Country ####################################################  -->
+								<tr>
+									<td style="font: 14px arial, sans-serif;">Country</td>
+									<td width="10px"></td>
+									<td></td>
+									<td width="10px"></td>
+									<td></td>
+									<td width="10px"></td>
+									<td></td>
+									<td width="10px"></td>
+									<td></td>
+								</tr>
+								
+								<tr>
+									<td><button id="btn_country" type="button">-></button></td>
+									<td width="10px"></td>
+									<td><input id="id_x_country" name="x_country" size="6" type="text" value='0' readonly></td>
+									<td width="10px"></td>
+									<td><input id="id_y_country" name="y_country" size="6" type="text" value='0' readonly></td>
+									<td width="10px"></td>
+									<td><input id="id_width_country" name="width_country" size="6" type="text" value='0' readonly></td>
+									<td width="10px"></td>
+									<td><input id="id_height_country" name="height_country" size="6" type="text" value='0' readonly></td>
+								</tr>
+								
+								<tr>
+									<td></td>
+									<td width="10px"></td>
+									<td align="center">X</td>
+									<td width="10px"></td>
+									<td align="center">Y</td>
+									<td width="10px"></td>
+									<td align="center">Width</td>
+									<td width="10px"></td>
+									<td align="center">Height</td>
+								</tr>
+								
+								<tr height="10px">
+									<td></td>
+									<td width="10px"></td>
+									<td></td>
+									<td width="10px"></td>
+									<td></td>
+									<td width="10px"></td>
+									<td></td>
+									<td width="10px"></td>
+									<td></td>
+								</tr>
+								<!--  ############################################# Event Date #####################################################  -->
+								<tr>
+									<td style="font: 14px arial, sans-serif;">Event Date</td>
+									<td width="10px"></td>
+									<td></td>
+									<td width="10px"></td>
+									<td></td>
+									<td width="10px"></td>
+									<td></td>
+									<td width="10px"></td>
+									<td></td>
+								</tr>
+								
+								<tr>
+									<td><button id="btn_date" type="button">-></button></td>
+									<td width="10px"></td>
+									<td><input id="id_x_date" name="x_date" size="6" type="text" value='0' readonly></td>
+									<td width="10px"></td>
+									<td><input id="id_y_date" name="y_date" size="6" type="text" value='0' readonly></td>
+									<td width="10px"></td>
+									<td><input id="id_width_date" name="width_date" size="6" type="text" value='0' readonly></td>
+									<td width="10px"></td>
+									<td><input id="id_height_date" name="height_date" size="6" type="text" value='0' readonly></td>
+								</tr>
+								
+								<tr>
+									<td></td>
+									<td width="10px"></td>
+									<td align="center">X</td>
+									<td width="10px"></td>
+									<td align="center">Y</td>
+									<td width="10px"></td>
+									<td align="center">Width</td>
+									<td width="10px"></td>
+									<td align="center">Height</td>
+								</tr>
+								
+								<tr height="10px">
+									<td></td>
+									<td width="10px"></td>
+									<td></td>
+									<td width="10px"></td>
+									<td></td>
+									<td width="10px"></td>
+									<td></td>
+									<td width="10px"></td>
+									<td></td>
+								</tr>
+								<!--  #################################################### Latitude ####################################################  -->
+								<tr>
+									<td style="font: 14px arial, sans-serif;">Latitude</td>
+									<td width="10px"></td>
+									<td></td>
+									<td width="10px"></td>
+									<td></td>
+									<td width="10px"></td>
+									<td></td>
+									<td width="10px"></td>
+									<td></td>
+								</tr>
+								
+								<tr>
+									<td><button id="btn_latitude" type="button">-></button></td>
+									<td width="10px"></td>
+									<td><input id="id_x_latitude" name="x_latitude" size="6" type="text" value='0' readonly></td>
+									<td width="10px"></td>
+									<td><input id="id_y_latitude" name="y_latitude" size="6" type="text" value='0' readonly></td>
+									<td width="10px"></td>
+									<td><input id="id_width_latitude" name="width_latitude" size="6" type="text" value='0' readonly></td>
+									<td width="10px"></td>
+									<td><input id="id_height_latitude" name="height_latitude" size="6" type="text" value='0' readonly></td>
+								</tr>
+								
+								<tr>
+									<td></td>
+									<td width="10px"></td>
+									<td align="center">X</td>
+									<td width="10px"></td>
+									<td align="center">Y</td>
+									<td width="10px"></td>
+									<td align="center">Width</td>
+									<td width="10px"></td>
+									<td align="center">Height</td>
+								</tr>
+								
+								<tr height="10px">
+									<td></td>
+									<td width="10px"></td>
+									<td></td>
+									<td width="10px"></td>
+									<td></td>
+									<td width="10px"></td>
+									<td></td>
+									<td width="10px"></td>
+									<td></td>
+								</tr>
+								<!--  #################################################### Longitude ####################################################  -->
+								<tr>
+									<td style="font: 14px arial, sans-serif;">Longitude</td>
+									<td width="10px"></td>
+									<td></td>
+									<td width="10px"></td>
+									<td></td>
+									<td width="10px"></td>
+									<td></td>
+									<td width="10px"></td>
+									<td></td>
+								</tr>
+								
+								<tr>
+									<td><button id="btn_longitude" type="button">-></button></td>
+									<td width="10px"></td>
+									<td><input id="id_x_longitude" name="x_longitude" size="6" type="text" value='0' readonly></td>
+									<td width="10px"></td>
+									<td><input id="id_y_longitude" name="y_longitude" size="6" type="text" value='0' readonly></td>
+									<td width="10px"></td>
+									<td><input id="id_width_longitude" name="width_longitude" size="6" type="text" value='0' readonly></td>
+									<td width="10px"></td>
+									<td><input id="id_height_longitude" name="height_longitude" size="6" type="text" value='0' readonly></td>
+								</tr>
+								
+								<tr>
+									<td></td>
+									<td width="10px"></td>
+									<td align="center">X</td>
+									<td width="10px"></td>
+									<td align="center">Y</td>
+									<td width="10px"></td>
+									<td align="center">Width</td>
+									<td width="10px"></td>
+									<td align="center">Height</td>
+								</tr>
+								
+								<tr height="10px">
+									<td></td>
+									<td width="10px"></td>
+									<td></td>
+									<td width="10px"></td>
+									<td></td>
+									<td width="10px"></td>
+									<td></td>
+									<td width="10px"></td>
+									<td></td>
+								</tr>
+								<!--  ############################################# Scientific Name #################################################  -->
+								<tr>
+									<td style="font: 14px arial, sans-serif;">Scientific Name</td>
+									<td width="10px"></td>
+									<td></td>
+									<td width="10px"></td>
+									<td></td>
+									<td width="10px"></td>
+									<td></td>
+									<td width="10px"></td>
+									<td></td>
+								</tr>
+								
+								<tr>
+									<td><button id="btn_name" type="button">-></button></td>
+									<td width="10px"></td>
+									<td><input id="id_x_name" name="x_name" size="6" type="text" value='0' readonly></td>
+									<td width="10px"></td>
+									<td><input id="id_y_name" name="y_name" size="6" type="text" value='0' readonly></td>
+									<td width="10px"></td>
+									<td><input id="id_width_name" name="width_name" size="6" type="text" value='0' readonly></td>
+									<td width="10px"></td>
+									<td><input id="id_height_name" name="height_name" size="6" type="text" value='0' readonly></td>
+								</tr>
+								
+								<tr>
+									<td></td>
+									<td width="10px"></td>
+									<td align="center">X</td>
+									<td width="10px"></td>
+									<td align="center">Y</td>
+									<td width="10px"></td>
+									<td align="center">Width</td>
+									<td width="10px"></td>
+									<td align="center">Height</td>
+								</tr>			
+								
+								<tr height="10px">
+									<td></td>
+									<td width="10px"></td>
+									<td></td>
+									<td width="10px"></td>
+									<td></td>
+									<td width="10px"></td>
+									<td></td>
+									<td width="10px"></td>
+									<td></td>
+								</tr>
+								<!--  ############################################# Scientific Name #################################################  -->
+
+								<tr height="10px">
+									<td colspan="9" style="text-align: center">
+										<input id="id_duration_country" name="duration_country" type="hidden" value='0'>
+										<input id="id_duration_date" name="duration_date" type="hidden" value='0'>
+										<input id="id_duration_latitude" name="duration_latitude" type="hidden" value='0'>
+										<input id="id_duration_longitude" name="duration_longitude" type="hidden" value='0'>
+										<input id="id_duration_name" name="duration_name" type="hidden" value='0'>
+										{{ form.srcFile.as_hidden }}
+										{{ form.errors }}
+										{{ form.non_field_errors }}
+										<input type="submit" value="Save and Next" />
+									</td>	
+								</tr>
+																																			
+							</table>
+							
+						</form>
+						
+					</td>
+				</tr>
+				
+			</table>
+				
+		</div>
+		
+		<footer>
+			<table class="center">
+				<tr>
+					<td>
+						<img alt="Home" src="/static/images/nsf1.gif" width="49px" height="50px">
+					</td>
+					<td>
+						<b>HuMaIN is funded by a grant from the National Science Foundation's ACI Division of Advanced Cyberinfrastructure (Award Number: 1535086). <br/>
+						Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and 
+						<br/>do not necessarily reflect the views of the National Science Foundation.</b>
+					</td>
+					<td>
+						<img alt="Home" src="/static/images/UFsignature.jpg" width="250px" height="46px">
+					</td>
+				</tr>  
+			</table>
+		</footer>
+		
+		<script>
+			'use strict';
+			
+			var $image = $('#image');
+			var $x = $('#id_x');
+			var $y = $('#id_y');
+			var $width = $('#id_width');
+			var $height = $('#id_height');
+			var $current_time = (new Date).getTime();
+			
+			var options = {
+				aspectRatio: "NaN",
+				crop: function (e) {
+					$dataX.val(Math.round(e.x));
+					$dataY.val(Math.round(e.y));
+					$dataWidth.val(Math.round(e.width));					
+					$dataHeight.val(Math.round(e.height));
+				}
+			};
+			
+			$image.cropper({
+				aspectRatio: "NaN",
+			});
+		
+			$image.on({
+				'crop.cropper': function (e) {
+					$x.val(Math.round(e.x));
+					$y.val(Math.round(e.y));
+					$width.val(Math.round(e.width));					
+					$height.val(Math.round(e.height));
+				},
+			 }).cropper(options);
+			
+			$( ".button" ).click(function() {
+				var $this = $(this);
+				var data = $this.data();
+
+				result = $('#image').cropper(data.method, data.option, data.secondOption);					
+			});
+			
+			$('#btn_country').click(function() {
+				$('#id_x_country').val( $x.val() ) 
+				$('#id_y_country').val( $y.val() )
+				$('#id_width_country').val( $width.val() )
+				$('#id_height_country').val( $height.val() )
+				$('#id_duration_country').val( Math.round(( (new Date).getTime() - $current_time )/1000.0) )
+				$current_time = (new Date).getTime()
+			});
+			
+			$('#btn_date').click(function() {
+				$('#id_x_date').val( $x.val() ) 
+				$('#id_y_date').val( $y.val() )
+				$('#id_width_date').val( $width.val() )
+				$('#id_height_date').val( $height.val() )
+				$('#id_duration_date').val( Math.round(( (new Date).getTime() - $current_time )/1000.0) )
+				$current_time = (new Date).getTime()
+			});
+			
+			$('#btn_latitude').click(function() {
+				$('#id_x_latitude').val( $x.val() ) 
+				$('#id_y_latitude').val( $y.val() )
+				$('#id_width_latitude').val( $width.val() )
+				$('#id_height_latitude').val( $height.val() )
+				$('#id_duration_latitude').val( Math.round(( (new Date).getTime() - $current_time )/1000.0) )
+				$current_time = (new Date).getTime()
+			});
+			
+			$('#btn_longitude').click(function() {
+				$('#id_x_longitude').val( $x.val() ) 
+				$('#id_y_longitude').val( $y.val() )
+				$('#id_width_longitude').val( $width.val() )
+				$('#id_height_longitude').val( $height.val() )
+				$('#id_duration_longitude').val( Math.round(( (new Date).getTime() - $current_time )/1000.0) )
+				$current_time = (new Date).getTime()
+			});
+			
+			$('#btn_name').click(function() {
+				$('#id_x_name').val( $x.val() ) 
+				$('#id_y_name').val( $y.val() )
+				$('#id_width_name').val( $width.val() )
+				$('#id_height_name').val( $height.val() )
+				$('#id_duration_name').val( Math.round(( (new Date).getTime() - $current_time )/1000.0) )
+				$current_time = (new Date).getTime()
+			});			
+		</script>
+		
+	</body>
+</html>

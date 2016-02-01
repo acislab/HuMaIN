@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>HuMaIN&#39;s App</title>
+		{% load staticfiles %}
+		<script type="text/javascript" src="/static/jquery-1.12.0.min.js"></script>
+		<script type="text/javascript" src="/static/cropper/cropper.min.js"></script>		
+		<link  href="/static/cropper/cropper.min.css" rel="stylesheet">
+		<link href="/static/styles/style.css" rel="stylesheet">
+		
+		<link href="/static/favicon.png" rel="icon" type="image/x-icon" />
+		<link href="/static/favicon.png" rel="shortcut icon" type="image/x-icon" />
+	</head>
+	<body>
+		
+		<header>
+			<div class="title1">
+				Human &amp;<br/>
+				Machine<br/>
+				INtelligent<br/>
+			</div>
+			
+			<div class="title2">
+				HuMaIN
+			</div>
+			
+			<div class="title3">
+				software components<br/> 
+				for information<br/>
+				retrieval<br/>
+			</div>
+			
+			<nav>
+				<table>
+					<tr>
+						<td>
+							<a href='{% url "index" %}'>
+								<img alt="Home" src="/static/images/home-icon.png" width=40px height=40px>
+							</a>
+						</td>
+						<td>
+							<a href="mission.html">
+								<img alt="Home" src="/static/images/target-icon.png" width=40px height=40px>
+							</a>
+						</td>
+						<td>
+							<a href="app.html">
+								<img alt="Home" src="/static/images/play-icon.png" width=40px height=40px>
+							</a>
+						</td>
+						<td>
+							<a href="catalog.html">
+								<img alt="Home" src="/static/images/stack-icon.png" width=40px height=40px>
+							</a>
+						</td>
+						<td>
+							<a href="contact.html">
+								<img alt="Home" src="/static/images/phone-icon.png" width=40px height=40px>
+							</a>
+						</td>
+						<td>
+							<a href="help.html">
+								<img alt="Home" src="/static/images/windy-icon.png" width=40px height=40px>
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td>Home</td>
+						<td>Mission</td>
+						<td>Humain</td>
+						<td>Catalog</td>
+						<td>Us</td>
+						<td>Help</td>
+					</tr>
+				</table>
+			</nav>
+		</header>
+			
+		<div class="appLeft">
+			<table class="t_croppping">
+				<tr>
+					<td width="20px" rowspan="16">
+					</td>
+					<td>
+					</td>
+					<td width="2px" rowspan="16">
+					</td>
+					<td width="32px">
+					</td>
+					<td width="5px" rowspan="16">
+					</td>
+				</tr>
+				
+				<tr>
+					<td rowspan="13">
+						<div class="imageContainer">
+							<img id="image" src="{{ filename }}" style="max-width:100%;max-height=100%;object-fit:contain" >
+						</div>
+					</td>
+					<td width="32px" height="50px">
+					</td>
+				</tr>
+				
+				<tr>
+					<td width="32px" height="32px" >
+						<img src="/static/images/cropper/denied-icon.png" id="btn_reset" class="button" data-method="reset" width="32px" height="32px">
+					</td>
+				</tr>
+				
+				<tr>
+					<td width="32px" height="100px">
+					</td>
+				</tr>
+				
+				<tr>
+					<td width="32px" height="32px">
+						<img src="/static/images/cropper/arrow-up-icon.png" id="btn_moveUp" class="button" data-method="move" data-option="0" data-second-option="-10" width="32px" height="32px">
+					</td>
+				</tr>
+				
+				<tr>
+					<td width="32px" height="2px">
+					</td>
+				</tr>				
+				
+				<tr>
+					<td width="32px" height="32px">
+						<img src="/static/images/cropper/arrow-down-icon.png" id="btn_moveDown" class="button" data-method="move" data-option="0" data-second-option="10" width="32px" height="32px">
+					</td>
+				</tr>				
+				
+				<tr>
+					<td width="32px" height="100px">
+					</td>
+				</tr>				
+				
+				<tr>
+					<td width="32px" height="32px">
+					
+						<img src="/static/images/cropper/zoom-in-icon.png" id="btn_zoomIn" class="button" data-method="zoom" data-option="0.1" width="32px" height="32px">
+						
+					</td>
+				</tr>
+				
+				<tr>
+					<td width="32px" height="2px">
+					</td>
+				</tr>				
+				
+				<tr>
+					<td width="32px" height="32px">
+						<img src="/static/images/cropper/zoom-out-icon.png" id="btn_zoomOut" class="button" data-method="zoom" data-option="-0.1" width="32px" height="32px">
+					</td>
+				</tr>	
+				
+				<tr>
+					<td width="32px" height="100px">
+					</td>
+				</tr>						
+				
+				<tr>
+					<td width="32px" height="32px">
+						<!--
+							<img src="/static/images/cropper/scissors-icon.png" id="btn_cut" class="button" data-method="crop" width="32px" height="32px">
+						-->
+					</td>
+				</tr>								
+				
+				<tr>
+					<td width="32px" height="50px">
+					</td>
+				</tr>						
+						
+				<tr>
+					<td height="2px">
+					</td>
+					<td width="32px" height="2px">
+					</td>
+				</tr>	
+				
+				<tr>
+					<td height="2px" align="center">
+						<table>
+							<tr>
+								<td></td>
+								<td width="32px" height="32px">
+									<img src="/static/images/cropper/arrow-left-icon.png" id="btn_moveLeft" class="button" data-method="move" data-option="-10" data-second-option="0" width="32px" height="32px">
+								</td>
+								<td width="2px"></td>
+								<td width="32px" height="32px">
+									<img src="/static/images/cropper/arrow-right-icon.png" id="btn_moveRight" class="button" data-method="move" data-option="10" data-second-option="0" width="32px" height="32px">
+								</td>
+								<td></td>
+							</tr>
+						</table>
+					</td>
+					<td width="32px">
+					</td>
+				</tr>												
+
+			</table>
+		</div>
+			
+		<div class="appContent">
+		
+			<form action='{% url "cropLabelView" %}' method="POST" enctype="multipart/form-data">
+			{% csrf_token %}
+			
+			
+				{% if form.errors %}
+				    {% for field in form %}
+				        {% for error in field.errors %}
+				            <div class="alert alert-error">
+				                <strong>{{ error|escape }}</strong>
+				            </div>
+				        {% endfor %}
+				    {% endfor %}
+				    {% for error in form.non_field_errors %}
+				        <div class="alert alert-error">
+				            <strong>{{ error|escape }}</strong>
+				        </div>
+				    {% endfor %}
+				{% endif %}
+			
+			
+			
+			
+				<table class="t_croppping">
+					<tr>
+						<td rowspan="7" width="5px"></td>
+						<td></td>
+						<td rowspan="7"></td>
+						<td></td>
+						<td rowspan="7"></td>
+					</tr>
+					
+					<tr>
+						<td style="font: 16px arial, sans-serif;">Crop Box coordinates</td>
+						<td></td>
+					</tr>
+					
+					<tr>
+						<td></td>
+						<td></td>				
+					</tr>
+					
+					<tr>
+						<td style="font: 14px arial, sans-serif;">Upper left corner</td>
+						<td style="font: 14px arial, sans-serif;">Dimensions</td>				
+					</tr>
+					
+					<tr>
+						<td></td>
+						<td></td>				
+					</tr>
+					
+					<tr>
+						<td>
+							<table>
+								<tr>
+									<td>X</td>
+									<td>{{ form.x }}</td>
+									<td>px</td>
+								</tr>
+								
+								<tr>
+									<td>Y</td>
+									<td>{{ form.y }}</td>
+									<td>py</td>
+								</tr>
+							</table>
+						</td>
+						
+						<td>
+							<table>
+								<tr>
+									<td>Width</td>
+									<td>{{ form.width }}</td>
+									<td>px</td>
+								</tr>
+								
+								<tr>
+									<td>Height</td>
+									<td>{{ form.height }}</td>
+									<td>py</td>
+								</tr>
+							</table>
+						</td>	
+					</tr>
+					
+					<tr height="10px">
+						<td></td>
+						<td></td>
+					</tr>
+					
+					<tr>
+						<td colspan="5" style="text-align: center">
+							{{ form.srcFile.as_hidden }}
+							{{ form.duration.as_hidden }}
+							{{ form.errors }}
+							{{ form.non_field_errors }}
+							<input type="submit" value="Save and Next" />
+						</td>	
+					</tr>
+				</table>
+				
+			</form>
+				
+		</div>
+		
+		<footer>
+			<table class="center">
+				<tr>
+					<td>
+						<img alt="Home" src="/static/images/nsf1.gif" width="49px" height="50px">
+					</td>
+					<td>
+						<b>HuMaIN is funded by a grant from the National Science Foundation's ACI Division of Advanced Cyberinfrastructure (Award Number: 1535086). <br/>
+						Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and 
+						<br/>do not necessarily reflect the views of the National Science Foundation.</b>
+					</td>
+					<td>
+						<img alt="Home" src="/static/images/UFsignature.jpg" width="250px" height="46px">
+					</td>
+				</tr>  
+			</table>
+		</footer>
+		
+		<script>
+			'use strict';
+			
+			var $image = $('#image');
+			var $x = $('#id_x');
+			var $y = $('#id_y');
+			var $width = $('#id_width');
+			var $height = $('#id_height');
+			
+			var options = {
+				aspectRatio: "NaN",
+				crop: function (e) {
+					$dataX.val(Math.round(e.x));
+					$dataY.val(Math.round(e.y));
+					$dataWidth.val(Math.round(e.width));					
+					$dataHeight.val(Math.round(e.height));
+				}
+			};
+			
+			$image.cropper({
+				aspectRatio: "NaN",
+			});
+		
+			$image.on({
+				'crop.cropper': function (e) {
+					$x.val(Math.round(e.x));
+					$y.val(Math.round(e.y));
+					$height.val(Math.round(e.height));
+					$width.val(Math.round(e.width));
+				},
+			 }).cropper(options);
+			
+			$( ".button" ).click(function() {
+				var $this = $(this);
+				var data = $this.data();
+
+				result = $('#image').cropper(data.method, data.option, data.secondOption);					
+			});
+			
+		</script>
+		
+	</body>
+</html>

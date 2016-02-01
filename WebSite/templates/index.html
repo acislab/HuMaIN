@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>HuMaIN</title>
+		{% load staticfiles %}
+		<link href={% static "styles/style.css" %} rel="stylesheet" />
+		<link href="/static/favicon.png" rel="icon" type="image/x-icon" />
+	</head>
+	<body>
+		
+		<header>
+			<div class="title1">
+				Human &amp;<br/>
+				Machine<br/>
+				INtelligent<br/>
+			</div>
+			
+			<div class="title2">
+				HuMaIN
+			</div>
+			
+			<div class="title3">
+				software components<br/> 
+				for information<br/>
+				retrieval<br/>
+			</div>
+			
+			<nav>
+				<table>
+					<tr>
+						<td>
+							<a href="{% url "index" %}">
+								<img alt="Home" src="/static/images/home-icon.png" width=40px height=40px>
+							</a>
+						</td>
+						<td>
+							<a href="mission.html">
+								<img alt="Home" src="/static/images/target-icon.png" width=40px height=40px>
+							</a>
+						</td>
+						<td>
+							<a href="app.html">
+								<img alt="Home" src="/static/images/play-icon.png" width=40px height=40px>
+							</a>
+						</td>
+						<td>
+							<a href="catalog.html">
+								<img alt="Home" src="/static/images/stack-icon.png" width=40px height=40px>
+							</a>
+						</td>
+						<td>
+							<a href="contact.html">
+								<img alt="Home" src="/static/images/phone-icon.png" width=40px height=40px>
+							</a>
+						</td>
+						<td>
+							<a href="help.html">
+								<img alt="Home" src="/static/images/windy-icon.png" width=40px height=40px>
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td>Home</td>
+						<td>Mission</td>
+						<td>Humain</td>
+						<td>Catalog</td>
+						<td>Us</td>
+						<td>Help</td>
+					</tr>
+				</table>
+			</nav>
+		</header>
+			
+		<div class="content_1col">
+			<table style="margin: auto;">
+				<tr height="100px">
+					<td></td>
+				</tr>
+				
+				<tr>
+					<td>
+						<img alt="Home" src="/static/images/portrait.jpg" width="960px" height="405px">
+					</td>
+				</tr>
+				
+				<tr height="100px">
+					<td></td>
+				</tr>
+			</table>
+		</div>
+		
+		<footer>
+			<table class="center">
+				<tr>
+					<td>
+						<img alt="Home" src="/static/images/nsf1.gif" width="49px" height="50px">
+					</td>
+					<td>
+						<b>HuMaIN is funded by a grant from the National Science Foundation's ACI Division of Advanced Cyberinfrastructure (Award Number: 1535086). <br/>
+						Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and 
+						<br/>do not necessarily reflect the views of the National Science Foundation.</b>
+					</td>
+					<td>
+						<img alt="Home" src="/static/images/UFsignature.jpg" width="250px" height="46px">
+					</td>
+				</tr> 
+			</table>
+		</footer>
+		
+	</body>
+</html>
