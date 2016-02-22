@@ -1,0 +1,2856 @@
+Script started on Wed 10 Feb 2016 06:59:01 PM EST
+]0;root@sse3:~/Experiment2]7;file://sse3.acis.ufl.edu/root/Experiment2[?1034h[root@sse3 Experiment2]# python ocrFolder.py Data/[K Results/[K Logs/[K[1P[1P[1P[1P[1@C[1@r[6@opped/[1P
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x3ee48c0>
+<ndarray-3b3c4e0 (348, 542) int32 [0,65543]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609589_Cerceris_compacta/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609589_Cerceris_compacta.jpg', ': ', 3.388188123703003, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x28f38c0>
+<ndarray-202b5c0 (544, 442) int32 [0,65547]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609686_Cerceris_conifrons/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609686_Cerceris_conifrons.jpg', ': ', 3.6788878440856934, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x2b398c0>
+<ndarray-2bbcc80 (728, 404) int32 [0,65548]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609504_Cerceris_compacta/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609504_Cerceris_compacta.jpg', ': ', 4.042375802993774, ' seconds ---')
+('\n--- ', 'WIS-L-0012070_lg.jpg', ': ', 34.76163387298584, ' seconds ---')
+('\n--- ', 'WIS-L-0012045_lg.jpg', ': ', 31.51516890525818, ' seconds ---')
+('\n--- ', 'TENN-L-0000036_lg.jpg', ': ', 23.307183980941772, ' seconds ---')
+('\n--- ', 'NY_01498080.jpg', ': ', 32.427846908569336, ' seconds ---')
+('\n--- ', 'WIS-L-0012060_lg.jpg', ': ', 33.471851110458374, ' seconds ---')
+('\n--- ', 'NY01075803_lg.jpg', ': ', 27.22588610649109, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 251, in safe_process1
+    return process1(arg)
+  File "/root/ocropy/ocropus-rpred", line 207, in process1
+    ocrolib.write_text(base+".txt",pred)
+  File "/root/ocropy/ocrolib/common.py", line 169, in write_text
+    if not nonl and text[-1]!='\n':
+IndexError: string index out of range
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 251, in safe_process1
+    return process1(arg)
+  File "/root/ocropy/ocropus-rpred", line 207, in process1
+    ocrolib.write_text(base+".txt",pred)
+  File "/root/ocropy/ocrolib/common.py", line 169, in write_text
+    if not nonl and text[-1]!='\n':
+IndexError: string index out of range
+('\n--- ', 'NY_01498139.jpg', ': ', 23.55412793159485, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x2cc78c0>
+<ndarray-290fd10 (512, 358) int32 [0,65546]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609912_Stigmus_sp/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609912_Stigmus_sp.jpg', ': ', 3.4238719940185547, ' seconds ---')
+('\n--- ', 'NY01075773_lg.jpg', ': ', 20.338414192199707, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x3ed28c0>
+<ndarray-3b77ad0 (736, 514) int32 [0,65551]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609696_Cerceris_conifrons/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609696_Cerceris_conifrons.jpg', ': ', 5.14110803604126, ' seconds ---')
+('\n--- ', 'NY_01334334.jpg', ': ', 34.91497492790222, ' seconds ---')
+('\n--- ', 'NY01075821_lg.jpg', ': ', 24.604993104934692, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 251, in safe_process1
+    return process1(arg)
+  File "/root/ocropy/ocropus-rpred", line 207, in process1
+    ocrolib.write_text(base+".txt",pred)
+  File "/root/ocropy/ocrolib/common.py", line 169, in write_text
+    if not nonl and text[-1]!='\n':
+IndexError: string index out of range
+('\n--- ', 'NY_01498176.jpg', ': ', 48.02720022201538, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x37358c0>
+<ndarray-3b9d070 (972, 534) int32 [0,65551]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609826_Cerceris_convergens/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609826_Cerceris_convergens.jpg', ': ', 5.1911749839782715, ' seconds ---')
+('\n--- ', 'TENN-L-0000065_lg.jpg', ': ', 14.967993021011353, ' seconds ---')
+('\n--- ', 'WIS-L-0012069_lg.jpg', ': ', 32.20645594596863, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x40fa8c0>
+<ndarray-3ebcfd0 (538, 392) int32 [0,65546]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609997_Aphilanthops_foxi/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609997_Aphilanthops_foxi.jpg', ': ', 3.447129964828491, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x3bab8c0>
+<ndarray-3e43760 (666, 412) int32 [0,65548]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609730_Cerceris_convergens/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609730_Cerceris_convergens.jpg', ': ', 3.291598081588745, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x34168c0>
+<ndarray-30e2280 (682, 500) int32 [0,65552]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609803_Cerceris_convergens/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609803_Cerceris_convergens.jpg', ': ', 3.790220022201538, ' seconds ---')
+('\n--- ', 'NY01075815_lg.jpg', ': ', 22.68222999572754, ' seconds ---')
+('\n--- ', 'NY01075817_lg.jpg', ': ', 23.062367916107178, ' seconds ---')
+('\n--- ', 'TENN-L-0000002_lg.jpg', ': ', 17.759593963623047, ' seconds ---')
+('\n--- ', 'NY_00040919.jpg', ': ', 38.54971718788147, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 251, in safe_process1
+    return process1(arg)
+  File "/root/ocropy/ocropus-rpred", line 207, in process1
+    ocrolib.write_text(base+".txt",pred)
+  File "/root/ocropy/ocrolib/common.py", line 169, in write_text
+    if not nonl and text[-1]!='\n':
+IndexError: string index out of range
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 251, in safe_process1
+    return process1(arg)
+  File "/root/ocropy/ocropus-rpred", line 207, in process1
+    ocrolib.write_text(base+".txt",pred)
+  File "/root/ocropy/ocrolib/common.py", line 169, in write_text
+    if not nonl and text[-1]!='\n':
+IndexError: string index out of range
+('\n--- ', 'TENN-L-0000048_lg.jpg', ': ', 21.023982048034668, ' seconds ---')
+('\n--- ', 'TENN-L-0000055_lg.jpg', ': ', 26.23853087425232, ' seconds ---')
+('\n--- ', 'NY_01334407.jpg', ': ', 27.575529098510742, ' seconds ---')
+('\n--- ', 'NY_01498067.jpg', ': ', 19.838090896606445, ' seconds ---')
+('\n--- ', 'NY_01498043.jpg', ': ', 23.345717906951904, ' seconds ---')
+('\n--- ', 'NY01075781_lg.jpg', ': ', 23.31746196746826, ' seconds ---')
+('\n--- ', 'NY01075797_lg.jpg', ': ', 21.42191195487976, ' seconds ---')
+('\n--- ', 'TENN-L-0000057_lg.jpg', ': ', 24.623422861099243, ' seconds ---')
+('\n--- ', 'NY_01334450.jpg', ': ', 25.681200981140137, ' seconds ---')
+('\n--- ', 'NY01075812_lg.jpg', ': ', 21.112066984176636, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 251, in safe_process1
+    return process1(arg)
+  File "/root/ocropy/ocropus-rpred", line 207, in process1
+    ocrolib.write_text(base+".txt",pred)
+  File "/root/ocropy/ocrolib/common.py", line 169, in write_text
+    if not nonl and text[-1]!='\n':
+IndexError: string index out of range
+('\n--- ', 'TENN-L-0000020_lg.jpg', ': ', 24.098802089691162, ' seconds ---')
+('\n--- ', 'NY_00754870.jpg', ': ', 32.97266101837158, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x3c5f8c0>
+<ndarray-3809c10 (394, 384) int32 [0,65543]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609945_Stigmus_sp/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609945_Stigmus_sp.jpg', ': ', 2.6687800884246826, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x40d78c0>
+<ndarray-414e470 (578, 454) int32 [0,65546]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609685_Cerceris_conifrons/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609685_Cerceris_conifrons.jpg', ': ', 3.2479209899902344, ' seconds ---')
+('\n--- ', 'NY_01498065.jpg', ': ', 21.985793113708496, ' seconds ---')
+('\n--- ', 'WIS-L-0012044_lg.jpg', ': ', 32.16366195678711, ' seconds ---')
+('\n--- ', 'NY_01498171.jpg', ': ', 34.84564995765686, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x2ec68c0>
+<ndarray-2b218d0 (654, 470) int32 [0,65546]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609882_Cerceris_convergens/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609882_Cerceris_convergens.jpg', ': ', 3.9778530597686768, ' seconds ---')
+('\n--- ', 'WIS-L-0012078_lg.jpg', ': ', 30.332931995391846, ' seconds ---')
+('\n--- ', 'NY_00198997.jpg', ': ', 26.03485894203186, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x2cf88c0>
+<ndarray-2d36610 (494, 424) int32 [0,65547]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609944_Stigmus_sp/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609944_Stigmus_sp.jpg', ': ', 3.146965980529785, ' seconds ---')
+('\n--- ', 'NY01075827_lg.jpg', ': ', 22.777674913406372, ' seconds ---')
+('\n--- ', 'WIS-L-0012058_lg.jpg', ': ', 31.17573595046997, ' seconds ---')
+('\n--- ', 'TENN-L-0000012_lg.jpg', ': ', 23.977258920669556, ' seconds ---')
+('\n--- ', 'WIS-L-0012043_lg.jpg', ': ', 31.039762020111084, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x3eb68c0>
+<ndarray-3ab0d50 (600, 436) int32 [0,65548]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609785_Cerceris_convergens/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609785_Cerceris_convergens.jpg', ': ', 3.4160571098327637, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x39568c0>
+<ndarray-36441e0 (336, 394) int32 [0,65543]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609928_Stigmus_sp/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609928_Stigmus_sp.jpg', ': ', 2.5135319232940674, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x387c8c0>
+<ndarray-3551940 (460, 1154) int32 [0,65544]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/NY01075774_lg/0001/*.png: expansion did not yield any files
+('\n--- ', 'NY01075774_lg.jpg', ': ', 4.8654561042785645, ' seconds ---')
+('\n--- ', 'WIS-L-0012053_lg.jpg', ': ', 29.659018993377686, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x32918c0>
+<ndarray-2e450f0 (656, 370) int32 [0,65550]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609576_Cerceris_compacta/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609576_Cerceris_compacta.jpg', ': ', 3.5672359466552734, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x341a8c0>
+<ndarray-30e4330 (472, 546) int32 [0,65544]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609881_Cerceris_convergens/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609881_Cerceris_convergens.jpg', ': ', 3.3064000606536865, ' seconds ---')
+('\n--- ', 'NY_01334374.jpg', ': ', 29.108757972717285, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x412b8c0>
+<ndarray-386dfd0 (566, 1354) int32 [0,65544]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/TENN-L-0000033_lg/0001/*.png: expansion did not yield any files
+('\n--- ', 'TENN-L-0000033_lg.jpg', ': ', 6.3082709312438965, ' seconds ---')
+('\n--- ', 'NY01075764_lg.jpg', ': ', 24.109638929367065, ' seconds ---')
+('\n--- ', 'NY_01498103.jpg', ': ', 27.434792041778564, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x2dd08c0>
+<ndarray-2a956a0 (536, 960) int32 [0,65543]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/TENN-L-0000079_lg/0001/*.png: expansion did not yield any files
+('\n--- ', 'TENN-L-0000079_lg.jpg', ': ', 4.761398077011108, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x254a8c0>
+<ndarray-2209ae0 (538, 442) int32 [0,65544]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609897_Cerceris_convergens/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609897_Cerceris_convergens.jpg', ': ', 3.233062982559204, ' seconds ---')
+('\n--- ', 'NY01075762_lg.jpg', ': ', 25.014848947525024, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 251, in safe_process1
+    return process1(arg)
+  File "/root/ocropy/ocropus-rpred", line 207, in process1
+    ocrolib.write_text(base+".txt",pred)
+  File "/root/ocropy/ocrolib/common.py", line 169, in write_text
+    if not nonl and text[-1]!='\n':
+IndexError: string index out of range
+('\n--- ', 'NY_01498127.jpg', ': ', 86.38544201850891, ' seconds ---')
+('\n--- ', 'NY01075775_lg.jpg', ': ', 22.31893801689148, ' seconds ---')
+('\n--- ', 'NY_01498031.jpg', ': ', 23.91545295715332, ' seconds ---')
+('\n--- ', 'NY_01498087.jpg', ': ', 31.29674983024597, ' seconds ---')
+('\n--- ', 'TENN-L-0000015_lg.jpg', ': ', 26.967269897460938, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x3a9c8c0>
+<ndarray-3646c10 (510, 1128) int32 [0,65542]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/TENN-L-0000028_lg/0001/*.png: expansion did not yield any files
+('\n--- ', 'TENN-L-0000028_lg.jpg', ': ', 4.963032960891724, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x388d8c0>
+<ndarray-3586360 (702, 492) int32 [0,65550]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609795_Cerceris_convergens/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609795_Cerceris_convergens.jpg', ': ', 3.786268949508667, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 251, in safe_process1
+    return process1(arg)
+  File "/root/ocropy/ocropus-rpred", line 207, in process1
+    ocrolib.write_text(base+".txt",pred)
+  File "/root/ocropy/ocrolib/common.py", line 169, in write_text
+    if not nonl and text[-1]!='\n':
+IndexError: string index out of range
+('\n--- ', 'TENN-L-0000053_lg.jpg', ': ', 31.741825103759766, ' seconds ---')
+('\n--- ', 'WIS-L-0012077_lg.jpg', ': ', 29.965759992599487, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x303d8c0>
+<ndarray-2dfc140 (376, 410) int32 [0,65544]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609968_Timberlakena_yucaipa/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609968_Timberlakena_yucaipa.jpg', ': ', 2.751509189605713, ' seconds ---')
+('\n--- ', 'NY01075829_lg.jpg', ': ', 22.783637046813965, ' seconds ---')
+('\n--- ', 'NY_01334349.jpg', ': ', 33.3537278175354, ' seconds ---')
+('\n--- ', 'NY_01498113.jpg', ': ', 131.61978697776794, ' seconds ---')
+('\n--- ', 'NY_01334391.jpg', ': ', 25.326241970062256, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x40eb8c0>
+<ndarray-3c9ffb0 (634, 386) int32 [0,65550]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609747_Cerceris_convergens/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609747_Cerceris_convergens.jpg', ': ', 3.5136208534240723, ' seconds ---')
+('\n--- ', 'TENN-L-0000095_lg.jpg', ': ', 17.046125173568726, ' seconds ---')
+('\n--- ', 'NY_01498124.jpg', ': ', 22.431697845458984, ' seconds ---')
+('\n--- ', 'NY_01497987.jpg', ': ', 19.087491035461426, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x37ca8c0>
+<ndarray-34b1de0 (656, 442) int32 [0,65549]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609935_Stigmus_sp/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609935_Stigmus_sp.jpg', ': ', 3.5128660202026367, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x30a28c0>
+<ndarray-33b05d0 (658, 502) int32 [0,65549]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609675_Cerceris_conifrons/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609675_Cerceris_conifrons.jpg', ': ', 3.711308002471924, ' seconds ---')
+('\n--- ', 'NY01075795_lg.jpg', ': ', 25.175521850585938, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x36358c0>
+<ndarray-3325900 (400, 410) int32 [0,65543]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609987_Aphilanthops_foxi/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609987_Aphilanthops_foxi.jpg', ': ', 3.1103298664093018, ' seconds ---')
+('\n--- ', 'NY01075782_lg.jpg', ': ', 20.598464965820312, ' seconds ---')
+('\n--- ', 'WIS-L-0012049_lg.jpg', ': ', 32.77552008628845, ' seconds ---')
+('\n--- ', 'WIS-L-0012042_lg.jpg', ': ', 29.629527807235718, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x3f218c0>
+<ndarray-3f8b640 (936, 478) int32 [0,65555]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609636_Cerceris_compar_compar/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609636_Cerceris_compar_compar.jpg', ': ', 4.541424036026001, ' seconds ---')
+('\n--- ', 'WIS-L-0011734_lg.jpg', ': ', 29.253087997436523, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x2a308c0>
+<ndarray-2728bd0 (730, 424) int32 [0,65551]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609526_Cerceris_compacta/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609526_Cerceris_compacta.jpg', ': ', 4.116369009017944, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x2a538c0>
+<ndarray-2714ba0 (576, 1212) int32 [0,65544]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/NY_01498062/0001/*.png: expansion did not yield any files
+('\n--- ', 'NY_01498062.jpg', ': ', 5.515872955322266, ' seconds ---')
+('\n--- ', 'WIS-L-0012048_lg.jpg', ': ', 28.328221082687378, ' seconds ---')
+('\n--- ', 'WIS-L-0012040_lg.jpg', ': ', 31.052481174468994, ' seconds ---')
+('\n--- ', 'TENN-L-0000029_lg.jpg', ': ', 22.07131314277649, ' seconds ---')
+('\n--- ', 'TENN-L-0000013_lg.jpg', ': ', 21.747843980789185, ' seconds ---')
+('\n--- ', 'NY01075805_lg.jpg', ': ', 26.02709197998047, ' seconds ---')
+('\n--- ', 'TENN-L-0000099_lg.jpg', ': ', 18.166478157043457, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x27ae8c0>
+<ndarray-2488740 (396, 470) int32 [0,65544]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609900_Stigmus_sp/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609900_Stigmus_sp.jpg', ': ', 3.3293960094451904, ' seconds ---')
+('\n--- ', 'NY01075798_lg.jpg', ': ', 23.858580112457275, ' seconds ---')
+('\n--- ', 'NY01075785_lg.jpg', ': ', 21.361572980880737, ' seconds ---')
+('\n--- ', 'NY_00819622.jpg', ': ', 38.726608991622925, ' seconds ---')
+('\n--- ', 'NY_00617450.jpg', ': ', 25.175525903701782, ' seconds ---')
+('\n--- ', 'NY_01498119.jpg', ': ', 24.43421196937561, ' seconds ---')
+('\n--- ', 'WIS-L-0012028_lg.jpg', ': ', 32.242599964141846, ' seconds ---')
+('\n--- ', 'WIS-L-0012052_lg.jpg', ': ', 31.64826512336731, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x32c48c0>
+<ndarray-2f92630 (956, 528) int32 [0,65552]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609828_Cerceris_convergens/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609828_Cerceris_convergens.jpg', ': ', 5.292562007904053, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x24198c0>
+<ndarray-21d9220 (496, 470) int32 [0,65547]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609933_Stigmus_sp/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609933_Stigmus_sp.jpg', ': ', 3.191282033920288, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x3bbb8c0>
+<ndarray-38a95b0 (674, 462) int32 [0,65549]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609936_Stigmus_sp/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609936_Stigmus_sp.jpg', ': ', 3.5927860736846924, ' seconds ---')
+('\n--- ', 'NY_01334354.jpg', ': ', 28.26610803604126, ' seconds ---')
+('\n--- ', 'WIS-L-0012046_lg.jpg', ': ', 31.82555890083313, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x3de98c0>
+<ndarray-3a1c0c0 (564, 436) int32 [0,65545]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609951_Stigmus_sp/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609951_Stigmus_sp.jpg', ': ', 3.5778889656066895, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x39c68c0>
+<ndarray-3a43210 (734, 426) int32 [0,65549]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609651_Cerceris_completa/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609651_Cerceris_completa.jpg', ': ', 3.6456570625305176, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x376b8c0>
+<ndarray-399f490 (384, 530) int32 [0,65543]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609918_Stigmus_sp/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609918_Stigmus_sp.jpg', ': ', 2.885741949081421, ' seconds ---')
+('\n--- ', 'TENN-L-0000021_lg.jpg', ': ', 19.487993955612183, ' seconds ---')
+('\n--- ', 'NY01075776_lg.jpg', ': ', 21.834950923919678, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x318d8c0>
+<ndarray-2e3a4b0 (368, 426) int32 [0,65542]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609930_Stigmus_sp/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609930_Stigmus_sp.jpg', ': ', 2.7093260288238525, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x25988c0>
+<ndarray-228fd50 (428, 442) int32 [0,65544]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609934_Stigmus_sp/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609934_Stigmus_sp.jpg', ': ', 2.9645211696624756, ' seconds ---')
+('\n--- ', 'NY_00617142.jpg', ': ', 33.98572897911072, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 251, in safe_process1
+    return process1(arg)
+  File "/root/ocropy/ocropus-rpred", line 207, in process1
+    ocrolib.write_text(base+".txt",pred)
+  File "/root/ocropy/ocrolib/common.py", line 169, in write_text
+    if not nonl and text[-1]!='\n':
+IndexError: string index out of range
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 251, in safe_process1
+    return process1(arg)
+  File "/root/ocropy/ocropus-rpred", line 207, in process1
+    ocrolib.write_text(base+".txt",pred)
+  File "/root/ocropy/ocrolib/common.py", line 169, in write_text
+    if not nonl and text[-1]!='\n':
+IndexError: string index out of range
+('\n--- ', 'NY_01334383.jpg', ': ', 59.185319900512695, ' seconds ---')
+('\n--- ', 'NY01075777_lg.jpg', ': ', 20.793569087982178, ' seconds ---')
+('\n--- ', 'NY01075788_lg.jpg', ': ', 22.894490957260132, ' seconds ---')
+('\n--- ', 'NY01075819_lg.jpg', ': ', 21.807871103286743, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x3ea78c0>
+<ndarray-3f183e0 (832, 496) int32 [0,65549]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609857_Cerceris_convergens/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609857_Cerceris_convergens.jpg', ': ', 4.298130989074707, ' seconds ---')
+('\n--- ', 'WIS-L-0012039_lg.jpg', ': ', 28.762814044952393, ' seconds ---')
+('\n--- ', 'NY_01498134.jpg', ': ', 17.792777061462402, ' seconds ---')
+('\n--- ', 'WIS-L-0012065_lg.jpg', ': ', 33.30065202713013, ' seconds ---')
+('\n--- ', 'WIS-L-0011727_lg.jpg', ': ', 30.51666498184204, ' seconds ---')
+('\n--- ', 'NY_01498110.jpg', ': ', 30.749745845794678, ' seconds ---')
+('\n--- ', 'WIS-L-0012034_lg.jpg', ': ', 28.997586011886597, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x28e98c0>
+<ndarray-25d7630 (338, 412) int32 [0,65542]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609910_Stigmus_sp/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609910_Stigmus_sp.jpg', ': ', 2.9349329471588135, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x24388c0>
+<ndarray-1aed120 (372, 434) int32 [0,65544]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609958_Timberlakena_yucaipa/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609958_Timberlakena_yucaipa.jpg', ': ', 2.823601007461548, ' seconds ---')
+('\n--- ', 'NY_01498027.jpg', ': ', 24.730375051498413, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x39198c0>
+<ndarray-35bfc30 (300, 412) int32 [0,65541]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609926_Stigmus_sp/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609926_Stigmus_sp.jpg', ': ', 2.899432897567749, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x3d7e8c0>
+<ndarray-39d6970 (548, 386) int32 [0,65547]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609614_Cerceris_compacta/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609614_Cerceris_compacta.jpg', ': ', 3.141355037689209, ' seconds ---')
+('\n--- ', 'TENN-L-0000091_lg.jpg', ': ', 18.24460792541504, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x41958c0>
+<ndarray-4207420 (1018, 478) int32 [0,65557]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609705_Cerceris_conifrons/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609705_Cerceris_conifrons.jpg', ': ', 5.066098213195801, ' seconds ---')
+('\n--- ', 'WIS-L-0011726_lg.jpg', ': ', 30.938035011291504, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x318b8c0>
+<ndarray-2de9fe0 (464, 494) int32 [0,65543]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609889_Cerceris_convergens/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609889_Cerceris_convergens.jpg', ': ', 3.342024803161621, ' seconds ---')
+('\n--- ', 'WIS-L-0012037_lg.jpg', ': ', 27.248081922531128, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x26868c0>
+<ndarray-2661fb0 (824, 478) int32 [0,65546]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609815_Cerceris_convergens/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609815_Cerceris_convergens.jpg', ': ', 4.579373836517334, ' seconds ---')
+('\n--- ', 'TENN-L-0000072_lg.jpg', ': ', 19.29720187187195, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x40538c0>
+<ndarray-416bda0 (548, 1516) int32 [0,65548]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/TENN-L-0000074_lg/0001/*.png: expansion did not yield any files
+('\n--- ', 'TENN-L-0000074_lg.jpg', ': ', 6.53795599937439, ' seconds ---')
+('\n--- ', 'NY_01334314.jpg', ': ', 20.616066932678223, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x34858c0>
+<ndarray-3036920 (594, 912) int32 [0,65545]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/TENN-L-0000064_lg/0001/*.png: expansion did not yield any files
+('\n--- ', 'TENN-L-0000064_lg.jpg', ': ', 4.836477994918823, ' seconds ---')
+('\n--- ', 'NY_00819627.jpg', ': ', 38.824217081069946, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x25248c0>
+<ndarray-21d1430 (410, 454) int32 [0,65544]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609902_Stigmus_sp/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609902_Stigmus_sp.jpg', ': ', 2.916076898574829, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x40cd8c0>
+<ndarray-4165050 (354, 494) int32 [0,65543]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609903_Stigmus_sp/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609903_Stigmus_sp.jpg', ': ', 2.7995529174804688, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x2a4d8c0>
+<ndarray-270f8f0 (296, 378) int32 [0,65541]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609924_Stigmus_sp/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609924_Stigmus_sp.jpg', ': ', 2.4010469913482666, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x2b888c0>
+<ndarray-2878900 (756, 392) int32 [0,65549]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609523_Cerceris_compacta/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609523_Cerceris_compacta.jpg', ': ', 3.6482019424438477, ' seconds ---')
+('\n--- ', 'NY01075761_lg.jpg', ': ', 24.15297794342041, ' seconds ---')
+('\n--- ', 'WIS-L-0011736_lg.jpg', ': ', 30.731975078582764, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x33688c0>
+<ndarray-211e3a0 (668, 442) int32 [0,65546]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609515_Cerceris_compacta/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609515_Cerceris_compacta.jpg', ': ', 4.014703035354614, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x3c518c0>
+<ndarray-3cc19b0 (800, 432) int32 [0,65550]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609709_Cerceris_convergens/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609709_Cerceris_convergens.jpg', ': ', 3.9001691341400146, ' seconds ---')
+('\n--- ', 'WIS-L-0012036_lg.jpg', ': ', 30.066569089889526, ' seconds ---')
+('\n--- ', 'NY01075787_lg.jpg', ': ', 21.463731050491333, ' seconds ---')
+('\n--- ', 'NY01075779_lg.jpg', ': ', 26.219419956207275, ' seconds ---')
+('\n--- ', 'WIS-L-0012033_lg.jpg', ': ', 26.489005088806152, ' seconds ---')
+('\n--- ', 'TENN-L-0000018_lg.jpg', ': ', 25.702270984649658, ' seconds ---')
+('\n--- ', 'NY_01334523.jpg', ': ', 30.662123203277588, ' seconds ---')
+('\n--- ', 'WIS-L-0012032_lg.jpg', ': ', 31.814409017562866, ' seconds ---')
+('\n--- ', 'NY01075786_lg.jpg', ': ', 22.946121215820312, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x39738c0>
+<ndarray-308f980 (464, 432) int32 [0,65545]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609661_Cerceris_completa/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609661_Cerceris_completa.jpg', ': ', 3.483566999435425, ' seconds ---')
+('\n--- ', 'NY01075769_lg.jpg', ': ', 23.626288890838623, ' seconds ---')
+('\n--- ', 'TENN-L-0000054_lg.jpg', ': ', 18.92262291908264, ' seconds ---')
+('\n--- ', 'NY_00641566.jpg', ': ', 35.45100998878479, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x3a7e8c0>
+<ndarray-3afb850 (598, 392) int32 [0,65547]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609758_Cerceris_convergens/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609758_Cerceris_convergens.jpg', ': ', 3.191340923309326, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x3f3a8c0>
+<ndarray-3fb1470 (676, 512) int32 [0,65548]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609764_Cerceris_convergens/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609764_Cerceris_convergens.jpg', ': ', 3.8743069171905518, ' seconds ---')
+('\n--- ', 'NY_01498166.jpg', ': ', 42.54424500465393, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 251, in safe_process1
+    return process1(arg)
+  File "/root/ocropy/ocropus-rpred", line 207, in process1
+    ocrolib.write_text(base+".txt",pred)
+  File "/root/ocropy/ocrolib/common.py", line 169, in write_text
+    if not nonl and text[-1]!='\n':
+IndexError: string index out of range
+('\n--- ', 'NY01075806_lg.jpg', ': ', 21.630125999450684, ' seconds ---')
+('\n--- ', 'TENN-L-0000089_lg.jpg', ': ', 19.54823088645935, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x3de88c0>
+<ndarray-352a290 (592, 1180) int32 [0,65547]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/NY01075770_lg/0001/*.png: expansion did not yield any files
+('\n--- ', 'NY01075770_lg.jpg', ': ', 5.897857904434204, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x3d078c0>
+<ndarray-2243c00 (538, 416) int32 [0,65548]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609921_Stigmus_sp/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609921_Stigmus_sp.jpg', ': ', 2.984541893005371, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x2ee28c0>
+<ndarray-2f90950 (412, 486) int32 [0,65544]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609600_Cerceris_compacta/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609600_Cerceris_compacta.jpg', ': ', 2.905771017074585, ' seconds ---')
+('\n--- ', 'NY_01334438.jpg', ': ', 39.9495689868927, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x224f8c0>
+<ndarray-1f50760 (700, 510) int32 [0,65550]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609862_Cerceris_convergens/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609862_Cerceris_convergens.jpg', ': ', 4.0499489307403564, ' seconds ---')
+('\n--- ', 'WIS-L-0012061_lg.jpg', ': ', 39.53429698944092, ' seconds ---')
+('\n--- ', 'NY_01498039.jpg', ': ', 26.157114028930664, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x24a08c0>
+<ndarray-2190d70 (464, 550) int32 [0,65544]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609880_Cerceris_convergens/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609880_Cerceris_convergens.jpg', ': ', 3.3312339782714844, ' seconds ---')
+('\n--- ', 'NY_01334531.jpg', ': ', 40.98747706413269, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x272a8c0>
+<ndarray-27a0f20 (412, 372) int32 [0,65543]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609624_Cerceris_compacta/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609624_Cerceris_compacta.jpg', ': ', 2.823273181915283, ' seconds ---')
+('\n--- ', 'WIS-L-0011729_lg.jpg', ': ', 26.55282998085022, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x235e8c0>
+<ndarray-2339fb0 (538, 428) int32 [0,65546]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609890_Cerceris_convergens/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609890_Cerceris_convergens.jpg', ': ', 3.284748077392578, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x3bed8c0>
+<ndarray-38925c0 (666, 432) int32 [0,65549]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609733_Cerceris_convergens/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609733_Cerceris_convergens.jpg', ': ', 3.4913878440856934, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x34668c0>
+<ndarray-34d69a0 (682, 498) int32 [0,65549]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609711_Cerceris_convergens/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609711_Cerceris_convergens.jpg', ': ', 3.7860851287841797, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x33178c0>
+<ndarray-186e7a0 (608, 388) int32 [0,65547]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609623_Cerceris_compacta/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609623_Cerceris_compacta.jpg', ': ', 3.1735620498657227, ' seconds ---')
+('\n--- ', 'NY_01498025.jpg', ': ', 24.866867065429688, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x31c38c0>
+<ndarray-2df5cb0 (868, 472) int32 [0,65550]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609816_Cerceris_convergens/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609816_Cerceris_convergens.jpg', ': ', 4.344825983047485, ' seconds ---')
+('\n--- ', 'WIS-L-0012062_lg.jpg', ': ', 25.195076942443848, ' seconds ---')
+('\n--- ', 'NY01075820_lg.jpg', ': ', 19.552141904830933, ' seconds ---')
+('\n--- ', 'TENN-L-0000009_lg.jpg', ': ', 24.992244005203247, ' seconds ---')
+('\n--- ', 'NY01075802_lg.jpg', ': ', 21.763288021087646, ' seconds ---')
+('\n--- ', 'WIS-L-0012026_lg.jpg', ': ', 25.84794807434082, ' seconds ---')
+('\n--- ', 'NY_01334442.jpg', ': ', 25.2241108417511, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x39538c0>
+<ndarray-39d0390 (774, 382) int32 [0,65550]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609564_Cerceris_compacta/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609564_Cerceris_compacta.jpg', ': ', 3.579437017440796, ' seconds ---')
+('\n--- ', 'WIS-L-0012073_lg.jpg', ': ', 28.42977499961853, ' seconds ---')
+('\n--- ', 'NY01075830_lg.jpg', ': ', 21.166440963745117, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x29cf8c0>
+<ndarray-2a3f500 (642, 434) int32 [0,65549]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609740_Cerceris_convergens/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609740_Cerceris_convergens.jpg', ': ', 3.526278018951416, ' seconds ---')
+('\n--- ', 'NY_01498168.jpg', ': ', 32.608537912368774, ' seconds ---')
+('\n--- ', 'NY01075789_lg.jpg', ': ', 23.31084704399109, ' seconds ---')
+('\n--- ', 'NY_01334493.jpg', ': ', 21.25607395172119, ' seconds ---')
+('\n--- ', 'NY_01334306.jpg', ': ', 20.716995000839233, ' seconds ---')
+('\n--- ', 'NY_00754872.jpg', ': ', 25.679604053497314, ' seconds ---')
+('\n--- ', 'NY_00040904.jpg', ': ', 36.684000968933105, ' seconds ---')
+('\n--- ', 'NY_00191205.jpg', ': ', 36.87238907814026, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 251, in safe_process1
+    return process1(arg)
+  File "/root/ocropy/ocropus-rpred", line 207, in process1
+    ocrolib.write_text(base+".txt",pred)
+  File "/root/ocropy/ocrolib/common.py", line 169, in write_text
+    if not nonl and text[-1]!='\n':
+IndexError: string index out of range
+('\n--- ', 'NY_00629823.jpg', ': ', 20.11763596534729, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x34578c0>
+<ndarray-30fcce0 (674, 486) int32 [0,65549]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609766_Cerceris_convergens/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609766_Cerceris_convergens.jpg', ': ', 3.7936441898345947, ' seconds ---')
+('\n--- ', 'TENN-L-0000010_lg.jpg', ': ', 27.07482886314392, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 251, in safe_process1
+    return process1(arg)
+  File "/root/ocropy/ocropus-rpred", line 207, in process1
+    ocrolib.write_text(base+".txt",pred)
+  File "/root/ocropy/ocrolib/common.py", line 169, in write_text
+    if not nonl and text[-1]!='\n':
+IndexError: string index out of range
+('\n--- ', 'NY01075794_lg.jpg', ': ', 21.835406064987183, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x2ff08c0>
+<ndarray-2db2fd0 (652, 486) int32 [0,65546]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609742_Cerceris_convergens/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609742_Cerceris_convergens.jpg', ': ', 3.739895820617676, ' seconds ---')
+('\n--- ', 'WIS-L-0011733_lg.jpg', ': ', 29.08624505996704, ' seconds ---')
+('\n--- ', 'NY01075818_lg.jpg', ': ', 23.273663997650146, ' seconds ---')
+('\n--- ', 'TENN-L-0000004_lg.jpg', ': ', 26.207934856414795, ' seconds ---')
+('\n--- ', 'NY01075837_lg.jpg', ': ', 20.612428903579712, ' seconds ---')
+('\n--- ', 'NY01075765_lg.jpg', ': ', 19.539215803146362, ' seconds ---')
+('\n--- ', 'WIS-L-0012025_lg.jpg', ': ', 24.662161111831665, ' seconds ---')
+('\n--- ', 'WIS-L-0011731_lg.jpg', ': ', 38.26269888877869, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x26a68c0>
+<ndarray-2a1ff40 (816, 474) int32 [0,65551]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609867_Cerceris_convergens/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609867_Cerceris_convergens.jpg', ': ', 4.183837890625, ' seconds ---')
+('\n--- ', 'NY_01497992.jpg', ': ', 33.342214822769165, ' seconds ---')
+('\n--- ', 'NY01075823_lg.jpg', ': ', 25.234092950820923, ' seconds ---')
+('\n--- ', 'TENN-L-0000019_lg.jpg', ': ', 22.073818922042847, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x3e338c0>
+<ndarray-356c860 (340, 420) int32 [0,65542]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609963_Timberlakena_yucaipa/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609963_Timberlakena_yucaipa.jpg', ': ', 2.729825973510742, ' seconds ---')
+('\n--- ', 'NY_01334403.jpg', ': ', 31.179747819900513, ' seconds ---')
+('\n--- ', 'NY_00227183.jpg', ': ', 24.243966817855835, ' seconds ---')
+('\n--- ', 'NY01075771_lg.jpg', ': ', 25.14264488220215, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x40fa8c0>
+<ndarray-3cae0f0 (698, 490) int32 [0,65550]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609861_Cerceris_convergens/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609861_Cerceris_convergens.jpg', ': ', 4.063014984130859, ' seconds ---')
+('\n--- ', 'WIS-L-0012072_lg.jpg', ': ', 29.47029399871826, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x29338c0>
+<ndarray-26f7810 (608, 508) int32 [0,65548]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609683_Cerceris_conifrons/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609683_Cerceris_conifrons.jpg', ': ', 3.7529871463775635, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x33248c0>
+<ndarray-3009f40 (520, 932) int32 [0,65542]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/NY_01334318/0001/*.png: expansion did not yield any files
+('\n--- ', 'NY_01334318.jpg', ': ', 4.6600868701934814, ' seconds ---')
+('\n--- ', 'WIS-L-0012075_lg.jpg', ': ', 29.44123911857605, ' seconds ---')
+('\n--- ', 'WIS-L-0012083_lg.jpg', ': ', 31.851550817489624, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x3c4b8c0>
+<ndarray-3cbb490 (376, 384) int32 [0,65544]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609976_Timberlakena_yucaipa/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609976_Timberlakena_yucaipa.jpg', ': ', 2.963521957397461, ' seconds ---')
+('\n--- ', 'WIS-L-0012086_lg.jpg', ': ', 30.259219884872437, ' seconds ---')
+('\n--- ', 'NY01075759_lg.jpg', ': ', 27.120041131973267, ' seconds ---')
+('\n--- ', 'TENN-L-0000047_lg.jpg', ': ', 22.220657110214233, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x2b838c0>
+<ndarray-284cbc0 (664, 446) int32 [0,65549]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609722_Cerceris_convergens/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609722_Cerceris_convergens.jpg', ': ', 3.6454038619995117, ' seconds ---')
+('\n--- ', 'TENN-L-0000061_lg.jpg', ': ', 21.836967945098877, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 251, in safe_process1
+    return process1(arg)
+  File "/root/ocropy/ocropus-rpred", line 207, in process1
+    ocrolib.write_text(base+".txt",pred)
+  File "/root/ocropy/ocrolib/common.py", line 169, in write_text
+    if not nonl and text[-1]!='\n':
+IndexError: string index out of range
+('\n--- ', 'TENN-L-0000016_lg.jpg', ': ', 25.941436052322388, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x23288c0>
+<ndarray-1f5acb0 (678, 428) int32 [0,65549]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609643_Cerceris_completa/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609643_Cerceris_completa.jpg', ': ', 3.8886611461639404, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x32938c0>
+<ndarray-2f8bcd0 (644, 450) int32 [0,65549]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609770_Cerceris_convergens/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609770_Cerceris_convergens.jpg', ': ', 3.997074842453003, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x35e28c0>
+<ndarray-36536e0 (458, 554) int32 [0,65544]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609914_Stigmus_sp/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609914_Stigmus_sp.jpg', ': ', 3.2073898315429688, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 251, in safe_process1
+    return process1(arg)
+  File "/root/ocropy/ocropus-rpred", line 207, in process1
+    ocrolib.write_text(base+".txt",pred)
+  File "/root/ocropy/ocrolib/common.py", line 169, in write_text
+    if not nonl and text[-1]!='\n':
+IndexError: string index out of range
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 251, in safe_process1
+    return process1(arg)
+  File "/root/ocropy/ocropus-rpred", line 207, in process1
+    ocrolib.write_text(base+".txt",pred)
+  File "/root/ocropy/ocrolib/common.py", line 169, in write_text
+    if not nonl and text[-1]!='\n':
+IndexError: string index out of range
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 251, in safe_process1
+    return process1(arg)
+  File "/root/ocropy/ocropus-rpred", line 207, in process1
+    ocrolib.write_text(base+".txt",pred)
+  File "/root/ocropy/ocrolib/common.py", line 169, in write_text
+    if not nonl and text[-1]!='\n':
+IndexError: string index out of range
+('\n--- ', 'NY_01498155.jpg', ': ', 55.78724813461304, ' seconds ---')
+('\n--- ', 'NY_01498191.jpg', ': ', 29.477497100830078, ' seconds ---')
+('\n--- ', 'NY_00198985.jpg', ': ', 35.64458608627319, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x21e08c0>
+<ndarray-2250f40 (798, 468) int32 [0,65547]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609848_Cerceris_convergens/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609848_Cerceris_convergens.jpg', ': ', 4.186631917953491, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x39fa8c0>
+<ndarray-39d31f0 (782, 476) int32 [0,65550]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609488_Cerceris_compacta/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609488_Cerceris_compacta.jpg', ': ', 4.077565908432007, ' seconds ---')
+('\n--- ', 'NY_01334464.jpg', ': ', 16.556221961975098, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x2bc78c0>
+<ndarray-111e7a0 (558, 372) int32 [0,65547]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609612_Cerceris_compacta/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609612_Cerceris_compacta.jpg', ': ', 3.144965171813965, ' seconds ---')
+('\n--- ', 'WIS-L-0012064_lg.jpg', ': ', 28.975169897079468, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x26b38c0>
+<ndarray-285e340 (740, 400) int32 [0,65551]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609543_Cerceris_compacta/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609543_Cerceris_compacta.jpg', ': ', 3.5707459449768066, ' seconds ---')
+('\n--- ', 'TENN-L-0000005_lg.jpg', ': ', 45.55073881149292, ' seconds ---')
+('\n--- ', 'NY01075780_lg.jpg', ': ', 21.568530797958374, ' seconds ---')
+('\n--- ', 'NY_01334466.jpg', ': ', 23.71451711654663, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x3e6e8c0>
+<ndarray-3ee95c0 (814, 510) int32 [0,65550]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609839_Cerceris_convergens/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609839_Cerceris_convergens.jpg', ': ', 4.388345956802368, ' seconds ---')
+('\n--- ', 'TENN-L-0000042_lg.jpg', ': ', 20.144810914993286, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x397c8c0>
+<ndarray-3956d10 (944, 526) int32 [0,65552]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609874_Cerceris_convergens/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609874_Cerceris_convergens.jpg', ': ', 4.755036115646362, ' seconds ---')
+('\n--- ', 'NY_00413589.jpg', ': ', 25.432466983795166, ' seconds ---')
+('\n--- ', 'WIS-L-0012057_lg.jpg', ': ', 30.66987109184265, ' seconds ---')
+('\n--- ', 'WIS-L-0011730_lg.jpg', ': ', 24.1761691570282, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 251, in safe_process1
+    return process1(arg)
+  File "/root/ocropy/ocropus-rpred", line 207, in process1
+    ocrolib.write_text(base+".txt",pred)
+  File "/root/ocropy/ocrolib/common.py", line 169, in write_text
+    if not nonl and text[-1]!='\n':
+IndexError: string index out of range
+('\n--- ', 'NY01075767_lg.jpg', ': ', 23.675496101379395, ' seconds ---')
+('\n--- ', 'NY_00198945.jpg', ': ', 22.89257311820984, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x3d7c8c0>
+<ndarray-392d920 (368, 520) int32 [0,65543]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609939_Stigmus_sp/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609939_Stigmus_sp.jpg', ': ', 2.9567830562591553, ' seconds ---')
+('\n--- ', 'WIS-L-0012085_lg.jpg', ': ', 30.299577951431274, ' seconds ---')
+('\n--- ', 'TENN-L-0000056_lg.jpg', ': ', 20.8888840675354, ' seconds ---')
+('\n--- ', 'WIS-L-0012063_lg.jpg', ': ', 34.423513889312744, ' seconds ---')
+('\n--- ', 'WIS-L-0012031_lg.jpg', ': ', 30.05013918876648, ' seconds ---')
+('\n--- ', 'WIS-L-0012068_lg.jpg', ': ', 28.82607889175415, ' seconds ---')
+('\n--- ', 'NY_01498186.jpg', ': ', 33.79788780212402, ' seconds ---')
+('\n--- ', 'NY_01334446.jpg', ': ', 23.85700011253357, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x2f978c0>
+<ndarray-32fed00 (758, 496) int32 [0,65548]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609836_Cerceris_convergens/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609836_Cerceris_convergens.jpg', ': ', 4.110636949539185, ' seconds ---')
+('\n--- ', 'NY01075813_lg.jpg', ': ', 20.182088136672974, ' seconds ---')
+('\n--- ', 'WIS-L-0012035_lg.jpg', ': ', 26.21029806137085, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x22b88c0>
+<ndarray-2329460 (404, 1298) int32 [0,65541]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/TENN-L-0000080_lg/0001/*.png: expansion did not yield any files
+('\n--- ', 'TENN-L-0000080_lg.jpg', ': ', 4.863492965698242, ' seconds ---')
+('\n--- ', 'WIS-L-0012074_lg.jpg', ': ', 29.932313203811646, ' seconds ---')
+('\n--- ', 'WIS-L-0012047_lg.jpg', ': ', 28.98289680480957, ' seconds ---')
+('\n--- ', 'TENN-L-0000073_lg.jpg', ': ', 29.313570976257324, ' seconds ---')
+('\n--- ', 'TENN-L-0000006_lg.jpg', ': ', 23.73212218284607, ' seconds ---')
+('\n--- ', 'WIS-L-0012056_lg.jpg', ': ', 33.12438106536865, ' seconds ---')
+('\n--- ', 'NY_00198990.jpg', ': ', 25.917518138885498, ' seconds ---')
+('\n--- ', 'NY_01498142.jpg', ': ', 18.591439962387085, ' seconds ---')
+('\n--- ', 'WIS-L-0012041_lg.jpg', ': ', 31.7541081905365, ' seconds ---')
+('\n--- ', 'WIS-L-0012071_lg.jpg', ': ', 40.15918302536011, ' seconds ---')
+('\n--- ', 'TENN-L-0000046_lg.jpg', ': ', 21.722660064697266, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 251, in safe_process1
+    return process1(arg)
+  File "/root/ocropy/ocropus-rpred", line 207, in process1
+    ocrolib.write_text(base+".txt",pred)
+  File "/root/ocropy/ocrolib/common.py", line 169, in write_text
+    if not nonl and text[-1]!='\n':
+IndexError: string index out of range
+('\n--- ', 'NY_00819601.jpg', ': ', 54.62751817703247, ' seconds ---')
+('\n--- ', 'NY_01334473.jpg', ': ', 22.179138898849487, ' seconds ---')
+('\n--- ', 'NY01075839_lg.jpg', ': ', 22.568379878997803, ' seconds ---')
+('\n--- ', 'TENN-L-0000052_lg.jpg', ': ', 22.65288496017456, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x38048c0>
+<ndarray-34c68f0 (564, 1222) int32 [0,65541]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/TENN-L-0000027_lg/0001/*.png: expansion did not yield any files
+('\n--- ', 'TENN-L-0000027_lg.jpg', ': ', 5.698259115219116, ' seconds ---')
+('\n--- ', 'TENN-L-0000043_lg.jpg', ': ', 19.251322984695435, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x34ed8c0>
+<ndarray-35581b0 (540, 438) int32 [0,65544]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609952_Stigmus_sp/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609952_Stigmus_sp.jpg', ': ', 3.224682092666626, ' seconds ---')
+('\n--- ', 'TENN-L-0000090_lg.jpg', ': ', 22.33985996246338, ' seconds ---')
+('\n--- ', 'WIS-L-0012038_lg.jpg', ': ', 30.325582027435303, ' seconds ---')
+('\n--- ', 'NY01075816_lg.jpg', ': ', 20.801515102386475, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x398b8c0>
+<ndarray-312ea50 (578, 1178) int32 [0,65546]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/TENN-L-0000063_lg/0001/*.png: expansion did not yield any files
+('\n--- ', 'TENN-L-0000063_lg.jpg', ': ', 5.626024961471558, ' seconds ---')
+('\n--- ', 'NY_01498009.jpg', ': ', 45.18255281448364, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 251, in safe_process1
+    return process1(arg)
+  File "/root/ocropy/ocropus-rpred", line 207, in process1
+    ocrolib.write_text(base+".txt",pred)
+  File "/root/ocropy/ocrolib/common.py", line 169, in write_text
+    if not nonl and text[-1]!='\n':
+IndexError: string index out of range
+('\n--- ', 'NY_01334433.jpg', ': ', 24.202123165130615, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x35748c0>
+<ndarray-32209b0 (586, 1328) int32 [0,65544]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/TENN-L-0000093_lg/0001/*.png: expansion did not yield any files
+('\n--- ', 'TENN-L-0000093_lg.jpg', ': ', 6.0287041664123535, ' seconds ---')
+('\n--- ', 'NY_01334389.jpg', ': ', 23.996978044509888, ' seconds ---')
+('\n--- ', 'NY01075763_lg.jpg', ': ', 18.44041609764099, ' seconds ---')
+('\n--- ', 'NY_01334304.jpg', ': ', 18.87628984451294, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x2ba08c0>
+<ndarray-284ce20 (318, 508) int32 [0,65544]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609601_Cerceris_compacta/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609601_Cerceris_compacta.jpg', ': ', 2.8249258995056152, ' seconds ---')
+('\n--- ', 'NY_01334419.jpg', ': ', 32.646515130996704, ' seconds ---')
+('\n--- ', 'NY01075792_lg.jpg', ': ', 22.15849995613098, ' seconds ---')
+('\n--- ', 'NY_00754868.jpg', ': ', 32.1938898563385, ' seconds ---')
+('\n--- ', 'TENN-L-0000045_lg.jpg', ': ', 18.254919052124023, ' seconds ---')
+('\n--- ', 'WIS-L-0012054_lg.jpg', ': ', 32.417861223220825, ' seconds ---')
+('\n--- ', 'WIS-L-0011728_lg.jpg', ': ', 27.964066982269287, ' seconds ---')
+('\n--- ', 'NY01075768_lg.jpg', ': ', 21.794044017791748, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x41758c0>
+<ndarray-3e1b330 (334, 412) int32 [0,65542]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609908_Stigmus_sp/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609908_Stigmus_sp.jpg', ': ', 2.607577085494995, ' seconds ---')
+('\n--- ', 'WIS-L-0012050_lg.jpg', ': ', 31.87003803253174, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x3f458c0>
+<ndarray-3f20fb0 (334, 510) int32 [0,65543]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609590_Cerceris_compacta/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609590_Cerceris_compacta.jpg', ': ', 2.8436408042907715, ' seconds ---')
+('\n--- ', 'WIS-L-0012076_lg.jpg', ': ', 33.115869998931885, ' seconds ---')
+('\n--- ', 'EMEC609879_Cerceris_convergens.jpg', ': ', 16.14337992668152, ' seconds ---')
+('\n--- ', 'NY_01497989.jpg', ': ', 28.908939123153687, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x2ccc8c0>
+<ndarray-2fdd560 (696, 474) int32 [0,65544]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609639_Cerceris_compar_compar/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609639_Cerceris_compar_compar.jpg', ': ', 3.907655954360962, ' seconds ---')
+('\n--- ', 'TENN-L-0000050_lg.jpg', ': ', 17.52759599685669, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 251, in safe_process1
+    return process1(arg)
+  File "/root/ocropy/ocropus-rpred", line 207, in process1
+    ocrolib.write_text(base+".txt",pred)
+  File "/root/ocropy/ocrolib/common.py", line 169, in write_text
+    if not nonl and text[-1]!='\n':
+IndexError: string index out of range
+('\n--- ', 'TENN-L-0000035_lg.jpg', ': ', 28.115433931350708, ' seconds ---')
+('\n--- ', 'TENN-L-0000044_lg.jpg', ': ', 24.01613688468933, ' seconds ---')
+('\n--- ', 'TENN-L-0000076_lg.jpg', ': ', 25.55584692955017, ' seconds ---')
+('\n--- ', 'NY_00499577.jpg', ': ', 35.43193292617798, ' seconds ---')
+('\n--- ', 'NY_00198980.jpg', ': ', 45.782716035842896, ' seconds ---')
+('\n--- ', 'WIS-L-0011735_lg.jpg', ': ', 36.95884895324707, ' seconds ---')
+('\n--- ', 'TENN-L-0000087_lg.jpg', ': ', 24.909358024597168, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 251, in safe_process1
+    return process1(arg)
+  File "/root/ocropy/ocropus-rpred", line 207, in process1
+    ocrolib.write_text(base+".txt",pred)
+  File "/root/ocropy/ocrolib/common.py", line 169, in write_text
+    if not nonl and text[-1]!='\n':
+IndexError: string index out of range
+('\n--- ', 'NY_01334543.jpg', ': ', 39.13323402404785, ' seconds ---')
+('\n--- ', 'TENN-L-0000051_lg.jpg', ': ', 23.947062015533447, ' seconds ---')
+('\n--- ', 'TENN-L-0000097_lg.jpg', ': ', 22.621906995773315, ' seconds ---')
+('\n--- ', 'NY01075822_lg.jpg', ': ', 19.537163019180298, ' seconds ---')
+('\n--- ', 'NY_00413475.jpg', ': ', 36.1119589805603, ' seconds ---')
+('\n--- ', 'TENN-L-0000083_lg.jpg', ': ', 20.191158056259155, ' seconds ---')
+('\n--- ', 'NY01075814_lg.jpg', ': ', 23.590768814086914, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x31f18c0>
+<ndarray-34d38b0 (816, 380) int32 [0,65551]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609529_Cerceris_compacta/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609529_Cerceris_compacta.jpg', ': ', 3.7887768745422363, ' seconds ---')
+('\n--- ', 'NY_00819657.jpg', ': ', 32.736891984939575, ' seconds ---')
+('\n--- ', 'NY_00198993.jpg', ': ', 30.690514087677002, ' seconds ---')
+('\n--- ', 'TENN-L-0000068_lg.jpg', ': ', 20.71046495437622, ' seconds ---')
+('\n--- ', 'TENN-L-0000077_lg.jpg', ': ', 23.125521183013916, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 251, in safe_process1
+    return process1(arg)
+  File "/root/ocropy/ocropus-rpred", line 207, in process1
+    ocrolib.write_text(base+".txt",pred)
+  File "/root/ocropy/ocrolib/common.py", line 169, in write_text
+    if not nonl and text[-1]!='\n':
+IndexError: string index out of range
+('\n--- ', 'TENN-L-0000003_lg.jpg', ': ', 24.970887184143066, ' seconds ---')
+('\n--- ', 'NY_01334328.jpg', ': ', 38.333767890930176, ' seconds ---')
+('\n--- ', 'NY_01498198.jpg', ': ', 37.28656005859375, ' seconds ---')
+('\n--- ', 'WIS-L-0012055_lg.jpg', ': ', 29.257999897003174, ' seconds ---')
+('\n--- ', 'NY_01334398.jpg', ': ', 42.93071484565735, ' seconds ---')
+('\n--- ', 'WIS-L-0012027_lg.jpg', ': ', 28.113271951675415, ' seconds ---')
+('\n--- ', 'NY_00040685.jpg', ': ', 46.98414707183838, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 251, in safe_process1
+    return process1(arg)
+  File "/root/ocropy/ocropus-rpred", line 207, in process1
+    ocrolib.write_text(base+".txt",pred)
+  File "/root/ocropy/ocrolib/common.py", line 169, in write_text
+    if not nonl and text[-1]!='\n':
+IndexError: string index out of range
+('\n--- ', 'NY_01334454.jpg', ': ', 45.56765007972717, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 251, in safe_process1
+    return process1(arg)
+  File "/root/ocropy/ocropus-rpred", line 207, in process1
+    ocrolib.write_text(base+".txt",pred)
+  File "/root/ocropy/ocrolib/common.py", line 169, in write_text
+    if not nonl and text[-1]!='\n':
+IndexError: string index out of range
+('\n--- ', 'NY_01498098.jpg', ': ', 34.54479908943176, ' seconds ---')
+('\n--- ', 'NY_01497997.jpg', ': ', 29.72139811515808, ' seconds ---')
+('\n--- ', 'NY01075760_lg.jpg', ': ', 27.54032802581787, ' seconds ---')
+('\n--- ', 'NY_00020326.jpg', ': ', 26.57370901107788, ' seconds ---')
+('\n--- ', 'WIS-L-0012051_lg.jpg', ': ', 30.779104948043823, ' seconds ---')
+('\n--- ', 'TENN-L-0000007_lg.jpg', ': ', 20.168694019317627, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x2f5a8c0>
+<ndarray-26a4750 (426, 404) int32 [0,65545]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609689_Cerceris_conifrons/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609689_Cerceris_conifrons.jpg', ': ', 2.859442949295044, ' seconds ---')
+('\n--- ', 'NY01075841_lg.jpg', ': ', 21.802278995513916, ' seconds ---')
+('\n--- ', 'TENN-L-0000059_lg.jpg', ': ', 19.77592396736145, ' seconds ---')
+('\n--- ', 'NY_01498069.jpg', ': ', 36.47816610336304, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 251, in safe_process1
+    return process1(arg)
+  File "/root/ocropy/ocropus-rpred", line 207, in process1
+    ocrolib.write_text(base+".txt",pred)
+  File "/root/ocropy/ocrolib/common.py", line 169, in write_text
+    if not nonl and text[-1]!='\n':
+IndexError: string index out of range
+('\n--- ', 'TENN-L-0000075_lg.jpg', ': ', 32.24061703681946, ' seconds ---')
+('\n--- ', 'WIS-L-0011732_lg.jpg', ': ', 31.985163927078247, ' seconds ---')
+('\n--- ', 'TENN-L-0000001_lg.jpg', ': ', 39.861696004867554, ' seconds ---')
+('\n--- ', 'NY01075790_lg.jpg', ': ', 33.47663712501526, ' seconds ---')
+('\n--- ', 'NY_00227158.jpg', ': ', 25.88955593109131, ' seconds ---')
+('\n--- ', 'NY_01334423.jpg', ': ', 26.493775129318237, ' seconds ---')
+('\n--- ', 'NY_00499439.jpg', ': ', 22.867564916610718, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x24fe8c0>
+<ndarray-21c7cc0 (672, 394) int32 [0,65548]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609563_Cerceris_compacta/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609563_Cerceris_compacta.jpg', ': ', 3.468651056289673, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x31d68c0>
+<ndarray-2f1a570 (556, 1288) int32 [0,65559]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/TENN-L-0000058_lg/0001/*.png: expansion did not yield any files
+('\n--- ', 'TENN-L-0000058_lg.jpg', ': ', 5.632189035415649, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x32ad8c0>
+<ndarray-2f7d440 (642, 458) int32 [0,65550]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609780_Cerceris_convergens/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609780_Cerceris_convergens.jpg', ': ', 3.4590189456939697, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 251, in safe_process1
+    return process1(arg)
+  File "/root/ocropy/ocropus-rpred", line 207, in process1
+    ocrolib.write_text(base+".txt",pred)
+  File "/root/ocropy/ocrolib/common.py", line 169, in write_text
+    if not nonl and text[-1]!='\n':
+IndexError: string index out of range
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 251, in safe_process1
+    return process1(arg)
+  File "/root/ocropy/ocropus-rpred", line 207, in process1
+    ocrolib.write_text(base+".txt",pred)
+  File "/root/ocropy/ocrolib/common.py", line 169, in write_text
+    if not nonl and text[-1]!='\n':
+IndexError: string index out of range
+('\n--- ', 'NY_01498090.jpg', ': ', 46.81847786903381, ' seconds ---')
+('\n--- ', 'NY_00499088.jpg', ': ', 23.788403034210205, ' seconds ---')
+('\n--- ', 'NY_01334326.jpg', ': ', 42.26260304450989, ' seconds ---')
+('\n--- ', 'NY_01334508.jpg', ': ', 43.71441411972046, ' seconds ---')
+('\n--- ', 'TENN-L-0000008_lg.jpg', ': ', 21.598933935165405, ' seconds ---')
+('\n--- ', 'NY_01498144.jpg', ': ', 35.58763098716736, ' seconds ---')
+('\n--- ', 'TENN-L-0000022_lg.jpg', ': ', 25.61266303062439, ' seconds ---')
+('\n--- ', 'WIS-L-0012029_lg.jpg', ': ', 31.285225868225098, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x3a3d8c0>
+<ndarray-31661c0 (504, 1374) int32 [0,65552]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/TENN-L-0000032_lg/0001/*.png: expansion did not yield any files
+('\n--- ', 'TENN-L-0000032_lg.jpg', ': ', 5.704683065414429, ' seconds ---')
+('\n--- ', 'NY_01334370.jpg', ': ', 31.299499988555908, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 251, in safe_process1
+    return process1(arg)
+  File "/root/ocropy/ocropus-rpred", line 207, in process1
+    ocrolib.write_text(base+".txt",pred)
+  File "/root/ocropy/ocrolib/common.py", line 169, in write_text
+    if not nonl and text[-1]!='\n':
+IndexError: string index out of range
+('\n--- ', 'TENN-L-0000017_lg.jpg', ': ', 26.825032949447632, ' seconds ---')
+('\n--- ', 'NY01075840_lg.jpg', ': ', 21.193938970565796, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x38b98c0>
+<ndarray-35a9530 (518, 1168) int32 [0,65553]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/TENN-L-0000030_lg/0001/*.png: expansion did not yield any files
+('\n--- ', 'TENN-L-0000030_lg.jpg', ': ', 5.433600187301636, ' seconds ---')
+('\n--- ', 'NY01075766_lg.jpg', ': ', 34.15522384643555, ' seconds ---')
+('\n--- ', 'NY01075828_lg.jpg', ': ', 24.553202152252197, ' seconds ---')
+('\n--- ', 'WIS-L-0012059_lg.jpg', ': ', 33.19674897193909, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 251, in safe_process1
+    return process1(arg)
+  File "/root/ocropy/ocropus-rpred", line 207, in process1
+    ocrolib.write_text(base+".txt",pred)
+  File "/root/ocropy/ocrolib/common.py", line 169, in write_text
+    if not nonl and text[-1]!='\n':
+IndexError: string index out of range
+('\n--- ', 'TENN-L-0000049_lg.jpg', ': ', 24.82322120666504, ' seconds ---')
+('\n--- ', 'WIS-L-0012084_lg.jpg', ': ', 31.548753023147583, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x27a08c0>
+<ndarray-2465d10 (486, 416) int32 [0,65546]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609719_Cerceris_convergens/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609719_Cerceris_convergens.jpg', ': ', 3.0227160453796387, ' seconds ---')
+('\n--- ', 'TENN-L-0000041_lg.jpg', ': ', 26.954209089279175, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 251, in safe_process1
+    return process1(arg)
+  File "/root/ocropy/ocropus-rpred", line 207, in process1
+    ocrolib.write_text(base+".txt",pred)
+  File "/root/ocropy/ocrolib/common.py", line 169, in write_text
+    if not nonl and text[-1]!='\n':
+IndexError: string index out of range
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 251, in safe_process1
+    return process1(arg)
+  File "/root/ocropy/ocropus-rpred", line 207, in process1
+    ocrolib.write_text(base+".txt",pred)
+  File "/root/ocropy/ocrolib/common.py", line 169, in write_text
+    if not nonl and text[-1]!='\n':
+IndexError: string index out of range
+('\n--- ', 'NY_00532999.jpg', ': ', 55.49183392524719, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 251, in safe_process1
+    return process1(arg)
+  File "/root/ocropy/ocropus-rpred", line 207, in process1
+    ocrolib.write_text(base+".txt",pred)
+  File "/root/ocropy/ocrolib/common.py", line 169, in write_text
+    if not nonl and text[-1]!='\n':
+IndexError: string index out of range
+('\n--- ', 'NY01075791_lg.jpg', ': ', 21.11330795288086, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x38f18c0>
+<ndarray-3974c00 (544, 396) int32 [0,65546]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609916_Stigmus_sp/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609916_Stigmus_sp.jpg', ': ', 3.115755081176758, ' seconds ---')
+('\n--- ', 'WIS-L-0012067_lg.jpg', ': ', 31.47544503211975, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x3db68c0>
+<ndarray-3e6ef30 (482, 438) int32 [0,65544]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609885_Cerceris_convergens/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609885_Cerceris_convergens.jpg', ': ', 3.126621961593628, ' seconds ---')
+('\n--- ', 'TENN-L-0000098_lg.jpg', ': ', 23.268638134002686, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x348c8c0>
+<ndarray-3790120 (766, 428) int32 [0,65551]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609800_Cerceris_convergens/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609800_Cerceris_convergens.jpg', ': ', 3.8339359760284424, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x36af8c0>
+<ndarray-33a7cd0 (800, 548) int32 [0,65551]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609841_Cerceris_convergens/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609841_Cerceris_convergens.jpg', ': ', 4.432218074798584, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x28468c0>
+<ndarray-24a14e0 (654, 478) int32 [0,65549]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609782_Cerceris_convergens/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609782_Cerceris_convergens.jpg', ': ', 3.6942298412323, ' seconds ---')
+('\n--- ', 'WIS-L-0012082_lg.jpg', ': ', 29.835299015045166, ' seconds ---')
+('\n--- ', 'WIS-L-0012030_lg.jpg', ': ', 31.64077115058899, ' seconds ---')
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-gpageseg", line 423, in safe_process1
+    process1(job)
+  File "/root/ocropy/ocropus-gpageseg", line 405, in process1
+    ocrolib.write_page_segmentation("%s.pseg.png"%outputdir,segmentation)
+  File "/root/ocropy/ocrolib/toplevel.py", line 209, in argument_checks
+    raise e
+CheckWarning: 
+CheckWarning for argument image of function <function write_page_segmentation at 0x356a8c0>
+<ndarray-1be2130 (844, 474) int32 [0,65552]> of type <type 'numpy.ndarray'>: expect a page image (larger than 600x600)(This can happen occasionally during normal operations and isn't necessarily a bug or problem.)
+
+Traceback (most recent call last):
+  File "/root/ocropy/ocropus-rpred", line 98, in <module>
+    inputs = ocrolib.glob_all(args.files)
+  File "/root/ocropy/ocrolib/toplevel.py", line 213, in argument_checks
+    result = f(*args,**kw)
+  File "/root/ocropy/ocrolib/common.py", line 654, in glob_all
+    raise FileNotFound("%s: expansion did not yield any files"%arg)
+ocrolib.common.FileNotFound: file not found Results/EMEC609853_Cerceris_convergens/0001/*.png: expansion did not yield any files
+('\n--- ', 'EMEC609853_Cerceris_convergens.jpg', ': ', 4.272535085678101, ' seconds ---')
+('\n--- ', 'NY01075831_lg.jpg', ': ', 21.56255793571472, ' seconds ---')
+('\n--- ', 'TENN-L-0000084_lg.jpg', ': ', 25.35831308364868, ' seconds ---')
+('\n--- ', 'NY_00385378.jpg', ': ', 24.24265217781067, ' seconds ---')
+('\n--- ', 'TENN-L-0000014_lg.jpg', ': ', 31.24761199951172, ' seconds ---')
+]0;root@sse3:~/Experiment2]7;file://sse3.acis.ufl.edu/root/Experiment2[root@sse3 Experiment2]# [K[root@sse3 Experiment2]# [K[root@sse3 Experiment2]# [K[root@sse3 Experiment2]# [K[root@sse3 Experiment2]# [K[root@sse3 Experiment2]# [K[root@sse3 Experiment2]# [K[root@sse3 Experiment2]# [K[root@sse3 Experiment2]# [K[root@sse3 Experiment2]# [K[root@sse3 Experiment2]# [K[root@sse3 Experiment2]# [K[root@sse3 Experiment2]# [K[root@sse3 Experiment2]# [K[root@sse3 Experiment2]# [K[root@sse3 Experiment2]# [K[root@sse3 Experiment2]# [K[root@sse3 Experiment2]# [K[root@sse3 Experiment2]# [K[root@sse3 Experiment2]# [K[root@sse3 Experiment2]# [K[root@sse3 Experiment2]# [K[root@sse3 Experiment2]# [K[root@sse3 Experiment2]# [K[root@sse3 Experiment2]# [K[root@sse3 Experiment2]# [K[root@sse3 Experiment2]# [K[root@sse3 Experiment2]# [K[root@sse3 Experiment2]# [K[root@sse3 Experiment2]# [K[root@sse3 Experiment2]# 
+]0;root@sse3:~/Experiment2]7;file://sse3.acis.ufl.edu/root/Experiment2[root@sse3 Experiment2]# exit
+exit
+
+Script done on Thu 11 Feb 2016 11:29:42 AM EST
