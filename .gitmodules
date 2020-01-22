@@ -1,0 +1,3 @@
+[submodule "HuMaIN_Collaborative_Data_Extraction"]
+	path = HuMaIN_Collaborative_Data_Extraction
+	url = ../HuMaIN_Collaborative_Data_Extraction
