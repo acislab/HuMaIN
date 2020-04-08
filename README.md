@@ -1,4 +1,4 @@
-# HuMaIN
+# HuMaIN [(humain.acis.ufl.edu)](http://humain.acis.ufl.edu/)
 Work on NSF grant ACI-1535086: Human- and Machine-Intelligent Software Elements for Cost-Effective Scientific Data Digitization.<br/>
 <br/>
 Biodiversity information extraction (IE) from imaged text in digitized museum specimen records is a challenging task due to both the large number of labels and the complexity of the characters and information to be extracted. <br/>
