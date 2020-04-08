@@ -21,5 +21,6 @@ Paper: SELFIE: Self-aware Information Extraction from Digitized Biocollections. 
 Paper: Task Design and Crowd Sentiment in Biocollections Information Extraction. Icaro Alzuru, Andréa Matsunaga, Maurício Tsugawa, and José A.B. Fortes. 3rd IEEE Collaboration and Internet Computing, 2017. [doi.org/10.1109/CIC.2017.00056](http://doi.org/10.1109/CIC.2017.00056)<br/>
 
 ## Cooperative Human-Machine Data Extraction
-Cooperative Human-Machine Data Extraction from Biological Collections. Icaro Alzuru, Andréa Matsunaga, Maurício Tsugawa, and José Fortes. 12th IEEE eScience, 2016. [doi.org/10.1109/eScience.2016.7870884](http://doi.org/10.1109/eScience.2016.7870884)<br/>
-
+*Cooperative Human-Machine Data Extraction from Biological Collections*. Icaro Alzuru, Andréa Matsunaga, Maurício Tsugawa, and José Fortes. 12th IEEE eScience, 2016. [doi.org/10.1109/eScience.2016.7870884](http://doi.org/10.1109/eScience.2016.7870884)<br/>
+This study shows how OCRopus and Tesseract, two widely used open source Optical Character Recognition engines, can improve their accuracy by more than 42%, when text segments are cropped by humans instead of their automated process. Our experiments also reveal differences in speed and quality between Tesseract and OCRopus.<br/>
+To have access to the Python scripts utilized in the experimenrts, please check the following GitHib repository: https://github.com/acislab/HuMaIN_Collaborative_Data_Extraction
