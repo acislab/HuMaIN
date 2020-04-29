@@ -6,9 +6,15 @@ The HuMaIN project investigates software-enabled solutions that support the comb
 Among other contributions, the project proposed the use of self-aware workflows to orchestrate machines and human tasks (the SELFIE model), Optical Character Recognition (OCR) ensembles and Natural Language Processing (NLP) methods to increase confidence in extracted text, named-entity recognition (NER) techniques for Darwin Core (DC) terms extraction, and a simulator for the study of these workflows with real-world data. The software has been tested and applied on large datasets from museums in the USA and Australia.<br/>
 <br/>
 
-## General Information Extraction and Confidence Estimation Methods
+## Generalizable Self-aware Information Extraction
 **Description**: This study proposes extraction and confidence estimation methods that can be applied to many DC terms in SELFIE workflows. A method to automatically train a named-entity recognition model is utilized for information extraction, while local and global frequency lists are utilized for confidence estimation.<br/>
-**Paper**: Icaro Alzuru, Andréa Matsunaga, Maurício Tsugawa, Paul Flemons, Austin Mast, and José A.B. Fortes, *Darwin-core Terms Extraction and Confidence Estimation in Self-aware Workflows*. To be submitted.<br/>
+**Paper by**: Icaro Alzuru, Andréa Matsunaga, Maurício Tsugawa, and José A.B. Fortes. *Generalizable Self-aware Information Extraction from Labels of Biological Collections*. To be submitted.<br/>
+To have access to the scripts utilized in the experiments, see the ***rb_ner.csv*** workflow in the [HuMaIN Simulator repository](https://github.com/acislab/HuMaIN_Simulator).
+
+## Quality-aware Text and Information Extraction
+**Description**: The paper *Quality-Aware Human-Machine Text Extraction for Biocollections using Ensembles of OCRs* was improved and extended to include <br/>
+**Journal**: Icaro Alzuru, Rhiannon Stephens, Andréa Matsunaga, Maurício Tsugawa, Paul Flemons, and José A.B. Fortes, *Quality-Aware Text and Information Extraction from Biocollections by using Ensembles of OCRs*, Under Review.<br/>
+To have access to the scripts utilized in the experiments, please check the [repository  of the paper](https://github.com/acislab/HuMaIN_Text_Extraction).
 
 ## HuMaIN Simulator
 **Description**: <br/>
