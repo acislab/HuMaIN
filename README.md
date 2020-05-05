@@ -41,3 +41,8 @@ To have access to the scripts utilized in the experiments, please check the [rep
 **Description**: This study shows how OCRopus and Tesseract, two widely used open-source OCR engines, can improve their accuracy by more than 42%, when text segments are cropped by humans instead of their automated process. Our experiments also reveal differences in speed and quality between Tesseract and OCRopus.<br/>
 **Paper**: Icaro Alzuru, Andréa Matsunaga, Maurício Tsugawa, and José A.B. Fortes, *Cooperative human-machine data extraction from biological collections*, 2016 IEEE 12th International Conference on e-Science (e-Science), Baltimore, MD, 2016, pp. 41-50. [doi.org/10.1109/eScience.2016.7870884](http://doi.org/10.1109/eScience.2016.7870884)<br/>
 To have access to the scripts utilized in the experiments, please check the [repository  of the paper](https://github.com/acislab/HuMaIN_Collaborative_Data_Extraction).
+<br/>
+<br/>
+<br/>
+<br/>
+HuMaIN is funded by a grant from the National Science Foundation's ACI Division of Advanced Cyberinfrastructure (Award Number: 1535086). Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.<br/>
