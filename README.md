@@ -6,6 +6,11 @@ The HuMaIN project investigates software-enabled solutions that support the comb
 Among other contributions, the project proposed the use of self-aware workflows to orchestrate machines and human tasks (the SELFIE model), Optical Character Recognition (OCR) ensembles and Natural Language Processing (NLP) methods to increase confidence in extracted text, named-entity recognition (NER) techniques for Darwin Core (DC) terms extraction, and a simulator for the study of these workflows with real-world data. The software has been tested and applied on large datasets from museums in the USA and Australia.<br/>
 <br/>
 
+## Acknowledgement
+HuMaIN is funded by a grant from the National Science Foundation's ACI Division of Advanced Cyberinfrastructure (Award Number: 1535086).
+Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and
+do not necessarily reflect the views of the National Science Foundation.
+
 ## Generalizable Self-aware Information Extraction
 **Description**: This study proposes extraction and confidence estimation methods that can be applied to many DC terms in SELFIE workflows. A method to automatically train a named-entity recognition model is utilized for information extraction, while local and global frequency lists are utilized for confidence estimation.<br/>
 **Paper by**: Icaro Alzuru, Andréa Matsunaga, Maurício Tsugawa, and José A.B. Fortes. *Generalizable Self-aware Information Extraction from Labels of Biological Collections*. To be submitted. 2020.<br/>
